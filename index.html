@@ -20,22 +20,36 @@
         .hero-text h1 { font-size: 42px; margin-bottom: 20px; font-weight: 700; line-height: 1.2; }
         .hero-text p { font-size: 18px; margin-bottom: 30px; opacity: 0.9; }
 
-        /* --- Upgraded Map Dashboard Styling --- */
-        .map-viewport { width: 100%; max-width: 450px; height: 320px; background: #0f172a; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden; margin: 0 auto; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
-        
-        /* High-Definition World Map Background Integration */
-        .map-hd-bg { width: 100%; height: 100%; opacity: 0.25; object-fit: contain; position: absolute; top: 0; left: 0; pointer-events: none; padding: 10px; }
+        /* --- Pure CSS Unbreakable Map Dashboard Styling --- */
+        .map-viewport { 
+            width: 100%; 
+            max-width: 450px; 
+            height: 320px; 
+            background-color: #0f172a;
+            /* This draws a futuristic grid background natively without any external images */
+            background-image: 
+                radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+                radial-gradient(rgba(37, 99, 235, 0.3) 2px, transparent 2px);
+            background-size: 16px 16px, 32px 32px;
+            background-position: 0 0, 8px 8px;
+            border-radius: 12px; 
+            border: 1px solid rgba(255,255,255,0.1); 
+            position: relative; 
+            overflow: hidden; 
+            margin: 0 auto; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3); 
+        }
         
         /* Interactive Radar Pulse Tracking Locations */
         .pin { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); z-index: 10; }
         .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; left: 0; top: 0; }
         
         /* Precise Geographic Pin Placements mapping to the HD Background */
-        .p1 { top: 38%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 0s; }    /* North America Site */
-        .p2 { top: 35%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  /* European Medical Center */
-        .p3 { top: 42%; left: 78%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  /* Asia-Pacific Hub */
-        .p4 { top: 68%; left: 32%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  /* South America Center */
-        .p5 { top: 72%; left: 82%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  /* Australia Network */
+        .p1 { top: 35%; left: 25%; animation: filterLoop 14s infinite; animation-delay: 0s; }    /* North America Site */
+        .p2 { top: 32%; left: 55%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  /* European Medical Center */
+        .p3 { top: 40%; left: 75%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  /* Asia-Pacific Hub */
+        .p4 { top: 65%; left: 35%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  /* South America Center */
+        .p5 { top: 70%; left: 80%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  /* Australia Network */
 
         @keyframes filterLoop {
             0%, 100% { background: #6b7280; opacity: 0.3; transform: scale(1); } 
@@ -102,8 +116,6 @@
         
         <!-- Premium Live Data Matrix Map Dashboard Layout -->
         <div class="map-viewport">
-            <!-- Professional High-Definition Digital Silhouette Map Vector Image -->
-            <img class="map-hd-bg" src="https://r2.dev" alt="Global Network Blueprint Grid">
             
             <!-- Dynamic Active Regional Clinical Target Sites Pins -->
             <div class="pin p1"></div>
@@ -159,4 +171,3 @@
                 </div>
                 <div class="form-group">
                     <label for="email">Work Email</label>
-                    <input type="email" id="email" name="email" placeholder="j.doe@company.com" required>
