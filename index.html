@@ -20,18 +20,12 @@
         .hero-text h1 { font-size: 42px; margin-bottom: 20px; font-weight: 700; line-height: 1.2; }
         .hero-text p { font-size: 18px; margin-bottom: 30px; opacity: 0.9; }
 
-        /* --- Pure CSS Unbreakable Map Dashboard Styling --- */
+        /* --- Map Dashboard Styling --- */
         .map-viewport { 
             width: 100%; 
             max-width: 450px; 
             height: 320px; 
             background-color: #0f172a;
-            /* This draws a futuristic grid background natively without any external images */
-            background-image: 
-                radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
-                radial-gradient(rgba(37, 99, 235, 0.3) 2px, transparent 2px);
-            background-size: 16px 16px, 32px 32px;
-            background-position: 0 0, 8px 8px;
             border-radius: 12px; 
             border: 1px solid rgba(255,255,255,0.1); 
             position: relative; 
@@ -39,17 +33,29 @@
             margin: 0 auto; 
             box-shadow: 0 20px 40px rgba(0,0,0,0.3); 
         }
+
+        /* Styling for the embedded vector map layout */
+        .map-svg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px 10px 60px;
+            opacity: 0.15;
+            pointer-events: none;
+        }
         
         /* Interactive Radar Pulse Tracking Locations */
         .pin { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); z-index: 10; }
         .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; left: 0; top: 0; }
         
         /* Precise Geographic Pin Placements mapping to the HD Background */
-        .p1 { top: 35%; left: 25%; animation: filterLoop 14s infinite; animation-delay: 0s; }    /* North America Site */
-        .p2 { top: 32%; left: 55%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  /* European Medical Center */
-        .p3 { top: 40%; left: 75%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  /* Asia-Pacific Hub */
-        .p4 { top: 65%; left: 35%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  /* South America Center */
-        .p5 { top: 70%; left: 80%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  /* Australia Network */
+        .p1 { top: 32%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 0s; }    /* North America Site */
+        .p2 { top: 28%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  /* European Medical Center */
+        .p3 { top: 35%; left: 78%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  /* Asia-Pacific Hub */
+        .p4 { top: 58%; left: 32%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  /* South America Center */
+        .p5 { top: 62%; left: 82%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  /* Australia Network */
 
         @keyframes filterLoop {
             0%, 100% { background: #6b7280; opacity: 0.3; transform: scale(1); } 
@@ -116,6 +122,21 @@
         
         <!-- Premium Live Data Matrix Map Dashboard Layout -->
         <div class="map-viewport">
+            <!-- Native SVG World Map Continent Tracings (Zero External Media Dependencies) -->
+            <svg class="map-svg" viewBox="0 0 200 100" preserveAspectRatio="xMidYMid meet">
+                <g fill="#ffffff">
+                    <!-- North America -->
+                    <path d="M10,15 L25,10 L45,12 L50,25 L40,42 L32,38 L25,48 L15,35 Z"/>
+                    <!-- South America -->
+                    <path d="M38,45 L48,52 L45,80 L38,88 L34,65 Z"/>
+                    <!-- Africa -->
+                    <path d="M85,38 L105,35 L115,50 L110,75 L95,78 L88,55 Z"/>
+                    <!-- Europe & Asia -->
+                    <path d="M82,15 L120,12 L165,15 L175,40 L140,50 L115,35 L95,30 Z"/>
+                    <!-- Australia -->
+                    <path d="M150,65 L170,68 L165,80 L148,78 Z"/>
+                </g>
+            </svg>
             
             <!-- Dynamic Active Regional Clinical Target Sites Pins -->
             <div class="pin p1"></div>
@@ -154,20 +175,3 @@
                 </div>
                 <div class="card">
                     <h3>⏱️ Hyper-Rapid Timelines</h3>
-                    <p>Streamlined site tiering and standard institutional contracting configurations that cut down historical cycle friction.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Operational Lead Form -->
-    <section id="contact" class="contact-section">
-        <h2 class="section-title">Schedule an Operational Evaluation</h2>
-        <div class="form-container">
-            <form action="https://formspree.io" method="POST">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Doe" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Work Email</label>
