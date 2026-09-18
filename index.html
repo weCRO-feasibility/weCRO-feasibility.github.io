@@ -34,34 +34,28 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.3); 
         }
 
-        /* Safe Matrix Text-Based Unbreakable Map Alignment */
-        .matrix-map {
+        /* High-Tech Grid Matrix Background Layer */
+        .matrix-bg {
             position: absolute;
-            top: 25px;
-            left: 20px;
-            right: 20px;
-            bottom: 60px;
-            font-family: monospace;
-            font-size: 10px;
-            line-height: 11px;
-            color: rgba(148, 163, 184, 0.15);
-            white-space: pre;
-            pointer-events: none;
-            user-select: none;
-            letter-spacing: 3px;
-            text-align: center;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            opacity: 0.5;
         }
         
         /* Interactive Radar Pulse Tracking Locations */
         .pin { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); z-index: 10; }
         .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; left: 0; top: 0; }
         
-        /* Precise Geographic Pin Placements mapping to the Digital Matrix Layout */
-        .p1 { top: 32%; left: 26%; animation: filterLoop 14s infinite; animation-delay: 0s; }    
-        .p2 { top: 25%; left: 53%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  
-        .p3 { top: 35%; left: 78%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  
-        .p4 { top: 62%; left: 34%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  
-        .p5 { top: 68%; left: 82%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  
+        /* Pin Placements */
+        .p1 { top: 35%; left: 25%; animation: filterLoop 14s infinite; animation-delay: 0s; }    
+        .p2 { top: 30%; left: 55%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  
+        .p3 { top: 40%; left: 75%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  
+        .p4 { top: 65%; left: 35%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  
+        .p5 { top: 70%; left: 80%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  
 
         @keyframes filterLoop {
             0%, 100% { background: #6b7280; opacity: 0.3; transform: scale(1); } 
@@ -96,17 +90,16 @@
         .card h3 { color: #0f172a; margin-bottom: 15px; font-size: 20px; }
 
         /* Form Structure Styling */
-        .contact-section { background-color: #f1f5f9; padding: 80px 10%; width: 100%; clear: both; display: block; }
+        .contact-section { background-color: #f1f5f9; padding: 80px 10%; width: 100%; display: block; }
         .form-container { background: white; max-width: 600px; margin: 0 auto; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
-        .form-container form { width: 100%; display: block; }
-        .form-group { margin-bottom: 20px; display: block; width: 100%; }
+        .form-group { margin-bottom: 20px; display: block; }
         .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #334155; font-size: 14px; }
         .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; color: #333; background-color: #fff; display: block; }
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
         .submit-btn { background: #2563eb; color: white; border: none; padding: 14px 28px; width: 100%; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; display: block; margin-top: 10px; }
         .submit-btn:hover { background: #1d4ed8; }
 
-        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 40px 10%; font-size: 14px; width: 100%; clear: both; display: block; }
+        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 40px 10%; font-size: 14px; width: 100%; display: block; }
         footer p { margin-bottom: 10px; }
     </style>
 </head>
@@ -129,22 +122,7 @@
         
         <!-- Safe Code Dot Matrix Map Dashboard Layout -->
         <div class="map-viewport">
-            <div class="matrix-map">
-....               .......          ....    
-......            .........        ......   
- ....              .......          ....    
-  ..                 ...             ..     
-                                            
-                                            
-                                            
-   ...               ...                    
-  ......            ...                     
-  .....              .                      
-  ....                                      
-   ..                                  ...  
-                                      ..... 
-                                       ...  
-            </div>
+            <div class="matrix-bg"></div>
             
             <!-- Active Regional Clinical Target Sites Pins -->
             <div class="pin p1"></div>
@@ -180,3 +158,22 @@
                 <div class="card">
                     <h3>🎯 Onco-Depth Verification</h3>
                     <p>Deep-tier alignment matching hyper-specific solid tumor or hematological protocols to active principal investigators.</p>
+                </div>
+                <div class="card">
+                    <h3>⏱️ Hyper-Rapid Timelines</h3>
+                    <p>Streamlined site tiering and standard institutional contracting configurations that cut down historical cycle friction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Schedule an Operational Evaluation</h2>
+        <div class="form-container">
+            <form action="https://formspree.io" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Work Email</label>
