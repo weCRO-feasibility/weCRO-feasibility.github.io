@@ -26,11 +26,6 @@
             max-width: 450px; 
             height: 320px; 
             background-color: #0f172a;
-            /* Direct, embedded production-grade world vector layout blueprint */
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 1000 500'%3E%3Cpath fill='rgba(148, 163, 184, 0.15)' d='M150,150 L160,140 L180,145 L210,130 L240,140 L260,120 L300,130 L320,110 L350,125 L380,105 L420,130 L450,115 L480,140 L520,135 L550,150 L580,130 L610,145 L640,125 L680,150 L720,135 L750,160 L780,140 L820,165 L850,145 L900,170 L920,185 L900,210 L850,230 L800,220 L750,240 L700,235 L650,250 L600,240 L550,260 L500,255 L450,270 L400,260 L350,280 L300,270 L250,290 L200,285 L150,300 L120,280 L100,250 L110,210 L130,180 Z M650,280 L700,260 L750,275 L800,260 L850,285 L880,310 L850,350 L800,380 L740,360 L680,340 L630,310 Z M200,320 L240,310 L280,330 L310,360 L290,420 L250,450 L210,410 L190,360 Z M500,380 L540,370 L560,400 L530,440 L490,430 L470,400 Z'/%3E%3C/svg%3E");
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
             border-radius: 12px; 
             border: 1px solid rgba(255,255,255,0.1); 
             position: relative; 
@@ -38,17 +33,35 @@
             margin: 0 auto; 
             box-shadow: 0 20px 40px rgba(0,0,0,0.3); 
         }
+
+        /* Digital Matrix Text-Based Unbreakable Map Alignment */
+        .matrix-map {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 60px;
+            font-family: monospace;
+            font-size: 9px;
+            line-height: 10px;
+            color: rgba(148, 163, 184, 0.12);
+            white-space: pre;
+            pointer-events: none;
+            user-select: none;
+            letter-spacing: 2px;
+            text-align: center;
+        }
         
         /* Interactive Radar Pulse Tracking Locations */
         .pin { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); z-index: 10; }
         .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; left: 0; top: 0; }
         
-        /* Fixed Geographic Pin Placements mapping flawlessly to the internal layout framework */
-        .p1 { top: 35%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 0s; }    
-        .p2 { top: 32%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  
-        .p3 { top: 40%; left: 76%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  
-        .p4 { top: 68%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  
-        .p5 { top: 72%; left: 74%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  
+        /* Precise Geographic Pin Placements mapping to the Digital Matrix Layout */
+        .p1 { top: 30%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 0s; }    /* North America */
+        .p2 { top: 25%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  /* Europe */
+        .p3 { top: 35%; left: 78%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  /* Asia */
+        .p4 { top: 60%; left: 32%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  /* South America */
+        .p5 { top: 65%; left: 82%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  /* Australia */
 
         @keyframes filterLoop {
             0%, 100% { background: #6b7280; opacity: 0.3; transform: scale(1); } 
@@ -113,8 +126,26 @@
             <p>Accelerating feasibility mapping across all major therapeutic areas with deep investigator networks and specialized execution paths.</p>
         </div>
         
-        <!-- Premium Data Dashboard Layout -->
+        <!-- Unbreakable Text Matrix Dashboard Layout -->
         <div class="map-viewport">
+            <!-- Pure Text Vector Continental Density Blocks -->
+            <div class="matrix-map">
+▪▪▪▪▪▪▪             ▪▪▪▪▪▪▪▪▪▪▪          ▪▪▪▪▪▪▪▪
+▪▪▪▪▪▪▪▪▪          ▪▪▪▪▪▪▪▪▪▪▪▪▪▪      ▪▪▪▪▪▪▪▪▪▪▪▪
+ ▪▪▪▪▪▪▪            ▪▪▪▪▪▪▪▪▪▪▪▪▪      ▪▪▪▪▪▪▪▪▪▪▪▪
+  ▪▪▪▪▪               ▪▪▪▪▪▪▪▪▪          ▪▪▪▪▪▪▪▪
+   ▪▪                  ▪▪▪▪▪▪▪              ▪▪▪
+                       ▪▪▪▪▪▪
+                       ▪▪▪▪▪
+     ▪▪▪▪▪             ▪▪▪▪
+   ▪▪▪▪▪▪▪▪            ▪▪▪
+   ▪▪▪▪▪▪▪             ▪
+   ▪▪▪▪▪
+    ▪▪▪                                   ▪▪▪▪
+     ▪                                   ▪▪▪▪▪▪
+                                          ▪▪▪▪
+            </div>
+            
             <!-- Dynamic Active Regional Clinical Target Sites Pins -->
             <div class="pin p1"></div>
             <div class="pin p2"></div>
@@ -151,10 +182,3 @@
                     <p>Deep-tier alignment matching hyper-specific solid tumor or hematological protocols to active principal investigators.</p>
                 </div>
                 <div class="card">
-                    <h3>⏱️ Hyper-Rapid Timelines</h3>
-                    <p>Streamlined site tiering and standard institutional contracting configurations that cut down historical cycle friction.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
