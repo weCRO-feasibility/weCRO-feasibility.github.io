@@ -20,42 +20,22 @@
         .hero-text h1 { font-size: 42px; margin-bottom: 20px; font-weight: 700; line-height: 1.2; }
         .hero-text p { font-size: 18px; margin-bottom: 30px; opacity: 0.9; }
 
-        /* --- Map Dashboard Styling --- */
-        .map-viewport { 
-            width: 100%; 
-            max-width: 450px; 
-            height: 320px; 
-            background-color: #0f172a;
-            border-radius: 12px; 
-            border: 1px solid rgba(255,255,255,0.1); 
-            position: relative; 
-            overflow: hidden; 
-            margin: 0 auto; 
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3); 
-        }
-
-        /* High-Tech Grid Matrix Background Layer */
-        .matrix-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-            background-size: 20px 20px;
-            opacity: 0.5;
-        }
+        /* --- Map Container Styling --- */
+        .map-viewport { width: 100%; max-width: 450px; height: 320px; background: #0f172a; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden; margin: 0 auto; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        
+        /* This ensures our new map stretches and fits the viewport perfectly */
+        .map-vector { width: 100%; height: 100%; opacity: 0.25; position: absolute; top: 0; left: 0; padding: 20px; pointer-events: none; }
         
         /* Interactive Radar Pulse Tracking Locations */
         .pin { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); z-index: 10; }
         .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; left: 0; top: 0; }
         
-        /* Pin Placements */
-        .p1 { top: 35%; left: 25%; animation: filterLoop 14s infinite; animation-delay: 0s; }    
-        .p2 { top: 30%; left: 55%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  
-        .p3 { top: 40%; left: 75%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  
-        .p4 { top: 65%; left: 35%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  
-        .p5 { top: 70%; left: 80%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  
+        /* Map Pin Placements */
+        .p1 { top: 30%; left: 22%; animation: filterLoop 14s infinite; animation-delay: 0s; }
+        .p2 { top: 40%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }
+        .p3 { top: 28%; left: 78%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }
+        .p4 { top: 62%; left: 38%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }
+        .p5 { top: 52%; left: 85%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }
 
         @keyframes filterLoop {
             0%, 100% { background: #6b7280; opacity: 0.3; transform: scale(1); } 
@@ -69,7 +49,7 @@
         .pin::after { background: inherit; }
         
         /* HUD Display Code */
-        .hud-overlay { position: absolute; bottom: 15px; left: 15px; right: 15px; background: rgba(15, 23, 42, 0.9); padding: 12px 18px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px); z-index: 20; }
+        .hud-overlay { position: absolute; bottom: 15px; left: 15px; right: 15px; background: rgba(15, 23, 42, 0.85); padding: 12px 18px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px); z-index: 20; }
         .hud-label { font-size: 11px; text-transform: uppercase; color: #94a3b8; }
         .hud-value { font-size: 14px; font-weight: bold; color: #3b82f6; }
         
@@ -90,23 +70,23 @@
         .card h3 { color: #0f172a; margin-bottom: 15px; font-size: 20px; }
 
         /* Form Structure Styling */
-        .contact-section { background-color: #f1f5f9; padding: 80px 10%; width: 100%; display: block; }
+        .contact-section { background-color: #f1f5f9; padding: 80px 10%; }
         .form-container { background: white; max-width: 600px; margin: 0 auto; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
-        .form-group { margin-bottom: 20px; display: block; }
+        .form-group { margin-bottom: 20px; }
         .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #334155; font-size: 14px; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; color: #333; background-color: #fff; display: block; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; }
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
-        .submit-btn { background: #2563eb; color: white; border: none; padding: 14px 28px; width: 100%; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; display: block; margin-top: 10px; }
+        .submit-btn { background: #2563eb; color: white; border: none; padding: 14px 28px; width: 100%; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; }
         .submit-btn:hover { background: #1d4ed8; }
 
-        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 40px 10%; font-size: 14px; width: 100%; display: block; }
+        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 40px 10%; font-size: 14px; }
         footer p { margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
     <header>
-        <a href="#" class="logo">we<span>CRO Feasibility</span></a>
+        <a href="#" class="logo">we<span>CRO</span></a>
         <nav>
             <a href="#about">About</a>
             <a href="#services">Capabilities</a>
@@ -120,11 +100,23 @@
             <p>Accelerating feasibility mapping across all major therapeutic areas with deep investigator networks and specialized execution paths.</p>
         </div>
         
-        <!-- Safe Code Dot Matrix Map Dashboard Layout -->
+        <!-- Upgraded Vector Map Display Panel -->
         <div class="map-viewport">
-            <div class="matrix-bg"></div>
+            <!-- This clean SVG contains physical vector paths outlining world continents -->
+            <svg class="map-vector" viewBox="0 0 360 180" fill="#475569">
+                <!-- North America -->
+                <path d="M40,30 L80,25 L100,45 L85,75 L65,70 L50,85 L35,60 Z"/>
+                <!-- South America -->
+                <path d="M85,78 L105,90 L95,140 L80,150 L75,110 Z"/>
+                <!-- Africa -->
+                <path d="M160,65 L200,60 L220,90 L205,135 L180,140 L165,100 Z"/>
+                <!-- Europe & Asia -->
+                <path d="M160,25 L220,20 L300,25 L320,65 L260,80 L220,60 L180,50 Z"/>
+                <!-- Australia -->
+                <path d="M280,110 L310,115 L305,135 L275,130 Z"/>
+            </svg>
             
-            <!-- Active Regional Clinical Target Sites Pins -->
+            <!-- Pulsing Target Site Coordinates -->
             <div class="pin p1"></div>
             <div class="pin p2"></div>
             <div class="pin p3"></div>
@@ -167,13 +159,10 @@
         </div>
     </section>
 
+    <!-- Operational Lead Form -->
     <section id="contact" class="contact-section">
         <h2 class="section-title">Schedule an Operational Evaluation</h2>
         <div class="form-container">
             <form action="https://formspree.io" method="POST">
                 <div class="form-group">
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Doe" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Work Email</label>
