@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>weCRO Feasibility | Rapid Site Feasibility & Optimization</title>
+    <title>weCRO-Feasibility | Rapid Site Feasibility & Optimization</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         body { color: #333; line-height: 1.6; background-color: #f8f9fa; scroll-behavior: smooth; }
 
         header { background: #ffffff; padding: 20px 10%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
-        .logo { font-size: 24px; font-weight: 700; color: #0f172a; text-decoration: none; }
+        .logo { font-size: 22px; font-weight: 700; color: #0f172a; text-decoration: none; letter-spacing: -0.3px; }
         .logo span { color: #2563eb; }
         nav a { margin-left: 20px; text-decoration: none; color: #4b5563; font-weight: 500; transition: color 0.3s; }
         nav a:hover { color: #2563eb; }
@@ -21,13 +21,13 @@
         .hero-text p { font-size: 18px; margin-bottom: 30px; opacity: 0.9; }
 
         /* ============================================
-           PROFESSIONAL SITE SELECTION MAP
+           PROFESSIONAL GLOBAL SITE-SELECTION MAP
            ============================================ */
         .map-viewport {
             width: 100%;
-            max-width: 460px;
-            height: 340px;
-            background: radial-gradient(ellipse at 30% 20%, #14213d 0%, #0a0f1e 60%, #060912 100%);
+            max-width: 520px;
+            height: 360px;
+            background: radial-gradient(ellipse at 30% 20%, #12203a 0%, #0a0f1e 55%, #050810 100%);
             border-radius: 14px;
             border: 1px solid rgba(148, 163, 184, 0.15);
             position: relative;
@@ -36,26 +36,27 @@
             box-shadow: 0 24px 48px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.05);
         }
 
-        /* World map dotted silhouette */
+        /* Real world map — dotted continents via inline SVG mask */
         .map-world {
             position: absolute;
             inset: 0;
-            background-image: radial-gradient(rgba(148,163,184,0.25) 1px, transparent 1.5px);
-            background-size: 8px 8px;
-            -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path fill='white' d='M20,30 Q25,20 40,22 Q55,25 60,35 Q65,45 55,55 Q45,60 35,55 Q25,50 22,40 Z M75,25 Q85,18 100,20 Q115,22 120,32 Q125,45 115,55 Q105,62 90,58 Q80,52 78,40 Z M130,35 Q140,28 155,30 Q170,35 168,48 Q165,60 150,62 Q135,60 132,48 Z M40,65 Q55,60 70,68 Q80,78 70,85 Q55,90 45,82 Z M110,70 Q125,65 140,72 Q148,82 138,88 Q120,90 112,82 Z'/></svg>");
-            mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path fill='white' d='M20,30 Q25,20 40,22 Q55,25 60,35 Q65,45 55,55 Q45,60 35,55 Q25,50 22,40 Z M75,25 Q85,18 100,20 Q115,22 120,32 Q125,45 115,55 Q105,62 90,58 Q80,52 78,40 Z M130,35 Q140,28 155,30 Q170,35 168,48 Q165,60 150,62 Q135,60 132,48 Z M40,65 Q55,60 70,68 Q80,78 70,85 Q55,90 45,82 Z M110,70 Q125,65 140,72 Q148,82 138,88 Q120,90 112,82 Z'/></svg>");
-            -webkit-mask-size: 92% 92%;
-            mask-size: 92% 92%;
+            background-image: radial-gradient(rgba(148,163,184,0.55) 0.9px, transparent 1.2px);
+            background-size: 6px 6px;
+            background-position: 0 0;
+            -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 500'><g fill='white'><path d='M120,110 L160,95 L200,100 L230,120 L245,155 L250,190 L240,225 L220,255 L200,285 L180,305 L165,320 L150,310 L135,285 L125,255 L118,220 L112,180 L115,140 Z'/><path d='M205,300 L225,315 L235,340 L230,370 L215,395 L195,410 L175,400 L165,375 L170,345 L185,320 Z'/><path d='M265,95 L300,80 L345,75 L390,80 L430,95 L455,120 L470,150 L472,180 L465,210 L445,235 L420,250 L390,258 L358,255 L330,245 L305,230 L285,210 L272,185 L265,155 Z'/><path d='M290,150 L320,140 L360,145 L400,155 L430,175 L445,200 L440,225 L420,240 L390,245 L355,240 L320,230 L298,215 L285,190 L282,168 Z'/><path d='M400,180 L430,170 L470,175 L510,190 L540,215 L555,245 L555,275 L545,305 L525,325 L495,335 L460,330 L430,318 L408,300 L395,275 L390,245 L392,215 Z'/><path d='M560,90 L610,75 L670,70 L730,75 L785,90 L825,115 L845,145 L848,180 L838,215 L815,245 L780,265 L740,275 L700,272 L660,260 L625,240 L600,215 L582,185 L570,155 L563,125 Z'/><path d='M480,60 L520,45 L570,42 L620,48 L655,65 L665,90 L650,110 L620,120 L580,122 L540,118 L510,105 L490,85 Z'/><path d='M790,300 L830,295 L865,308 L878,330 L870,355 L845,372 L812,378 L785,368 L772,345 L775,320 Z'/><path d='M880,150 L910,148 L930,160 L928,180 L910,192 L888,188 L875,172 Z'/><path d='M855,230 L880,228 L898,240 L895,258 L878,268 L860,262 L850,248 Z'/></g></svg>");
+            mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 500'><g fill='white'><path d='M120,110 L160,95 L200,100 L230,120 L245,155 L250,190 L240,225 L220,255 L200,285 L180,305 L165,320 L150,310 L135,285 L125,255 L118,220 L112,180 L115,140 Z'/><path d='M205,300 L225,315 L235,340 L230,370 L215,395 L195,410 L175,400 L165,375 L170,345 L185,320 Z'/><path d='M265,95 L300,80 L345,75 L390,80 L430,95 L455,120 L470,150 L472,180 L465,210 L445,235 L420,250 L390,258 L358,255 L330,245 L305,230 L285,210 L272,185 L265,155 Z'/><path d='M290,150 L320,140 L360,145 L400,155 L430,175 L445,200 L440,225 L420,240 L390,245 L355,240 L320,230 L298,215 L285,190 L282,168 Z'/><path d='M400,180 L430,170 L470,175 L510,190 L540,215 L555,245 L555,275 L545,305 L525,325 L495,335 L460,330 L430,318 L408,300 L395,275 L390,245 L392,215 Z'/><path d='M560,90 L610,75 L670,70 L730,75 L785,90 L825,115 L845,145 L848,180 L838,215 L815,245 L780,265 L740,275 L700,272 L660,260 L625,240 L600,215 L582,185 L570,155 L563,125 Z'/><path d='M480,60 L520,45 L570,42 L620,48 L655,65 L665,90 L650,110 L620,120 L580,122 L540,118 L510,105 L490,85 Z'/><path d='M790,300 L830,295 L865,308 L878,330 L870,355 L845,372 L812,378 L785,368 L772,345 L775,320 Z'/><path d='M880,150 L910,148 L930,160 L928,180 L910,192 L888,188 L875,172 Z'/><path d='M855,230 L880,228 L898,240 L895,258 L878,268 L860,262 L850,248 Z'/></g></svg>");
+            -webkit-mask-size: 100% 100%;
+            mask-size: 100% 100%;
             -webkit-mask-position: center;
             mask-position: center;
             -webkit-mask-repeat: no-repeat;
             mask-repeat: no-repeat;
-            opacity: 0.55;
+            opacity: 0.75;
             animation: worldFade 18s ease-in-out infinite;
         }
         @keyframes worldFade {
-            0%, 100% { opacity: 0.35; }
-            50% { opacity: 0.65; }
+            0%, 100% { opacity: 0.55; }
+            50% { opacity: 0.9; }
         }
 
         /* Radar sweep */
@@ -67,8 +68,8 @@
             background: conic-gradient(from 0deg,
                 rgba(59,130,246,0) 0deg,
                 rgba(59,130,246,0) 300deg,
-                rgba(59,130,246,0.10) 340deg,
-                rgba(59,130,246,0.22) 358deg,
+                rgba(59,130,246,0.08) 340deg,
+                rgba(59,130,246,0.20) 358deg,
                 rgba(59,130,246,0) 360deg);
             animation: sweep 6s linear infinite;
             pointer-events: none;
@@ -79,7 +80,7 @@
         /* Pins */
         .pin {
             position: absolute;
-            width: 8px; height: 8px;
+            width: 9px; height: 9px;
             border-radius: 50%;
             transform: translate(-50%, -50%);
             background: #475569;
@@ -99,14 +100,17 @@
             100% { transform: scale(1.8); opacity: 0; }
         }
 
-        /* Per-pin positions & delays */
-        .p1 { top: 32%; left: 22%; animation-delay: 0.0s; }
-        .p2 { top: 48%; left: 58%; animation-delay: 0.6s; }
-        .p3 { top: 26%; left: 74%; animation-delay: 1.2s; }
-        .p4 { top: 66%; left: 38%; animation-delay: 1.8s; }
-        .p5 { top: 56%; left: 82%; animation-delay: 2.4s; }
-        .p6 { top: 40%; left: 46%; animation-delay: 3.0s; }
-        .p7 { top: 72%; left: 66%; animation-delay: 3.6s; }
+        /* Pin positions aligned to real trial-site regions */
+        /* US East, US West, UK/EU, India, China, Japan, Brazil, Australia */
+        .p1 { top: 40%; left: 24%; animation-delay: 0.0s; }  /* US East */
+        .p2 { top: 42%; left: 15%; animation-delay: 0.6s; }  /* US West */
+        .p3 { top: 30%; left: 47%; animation-delay: 1.2s; }  /* UK / Western EU */
+        .p4 { top: 33%; left: 53%; animation-delay: 1.8s; }  /* Eastern EU */
+        .p5 { top: 52%; left: 68%; animation-delay: 2.4s; }  /* India */
+        .p6 { top: 42%; left: 78%; animation-delay: 3.0s; }  /* China */
+        .p7 { top: 40%; left: 86%; animation-delay: 3.6s; }  /* Japan */
+        .p8 { top: 68%; left: 32%; animation-delay: 4.2s; }  /* Brazil */
+        .p9 { top: 75%; left: 84%; animation-delay: 4.8s; }  /* Australia */
 
         @keyframes pinLifecycle {
             0%          { background: #475569; box-shadow: 0 0 0 0 rgba(71,85,105,0); transform: translate(-50%,-50%) scale(1); }
@@ -125,7 +129,7 @@
         .map-arcs path {
             fill: none;
             stroke: #ef4444;
-            stroke-width: 0.5;
+            stroke-width: 0.4;
             stroke-dasharray: 400;
             stroke-dashoffset: 400;
             opacity: 0;
@@ -133,12 +137,13 @@
         }
         @keyframes drawArc {
             0%, 40%    { stroke-dashoffset: 400; opacity: 0; }
-            55%        { stroke-dashoffset: 0;   opacity: 0.9; }
-            80%        { stroke-dashoffset: 0;   opacity: 0.9; }
+            55%        { stroke-dashoffset: 0;   opacity: 0.85; }
+            80%        { stroke-dashoffset: 0;   opacity: 0.85; }
             95%, 100%  { stroke-dashoffset: 400; opacity: 0; }
         }
         .map-arcs path:nth-child(2) { animation-delay: 0.5s; }
         .map-arcs path:nth-child(3) { animation-delay: 1.0s; }
+        .map-arcs path:nth-child(4) { animation-delay: 1.5s; }
 
         /* HUD overlay */
         .hud-overlay {
@@ -230,7 +235,7 @@
 <body>
 
     <header>
-        <a href="#" class="logo">we<span>CRO</span></a>
+        <a href="#" class="logo">we<span>CRO</span>-Feasibility</a>
         <nav>
             <a href="#about">About</a>
             <a href="#services">Capabilities</a>
@@ -244,16 +249,17 @@
             <p>Accelerating feasibility mapping across all major therapeutic areas with deep investigator networks and specialized oncology execution paths.</p>
         </div>
 
-        <!-- Professional Site Selection Map -->
+        <!-- Professional Global Site-Selection Map -->
         <div class="map-viewport">
             <div class="map-world"></div>
             <div class="radar-sweep"></div>
 
-            <!-- Connection arcs between tier-1 oncology sites -->
+            <!-- Connection arcs between oncology hubs -->
             <svg class="map-arcs" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <path d="M 26 30 Q 45 15 74 26" />
-                <path d="M 74 26 Q 82 45 82 56" />
-                <path d="M 26 30 Q 40 55 66 72" />
+                <path d="M 24 40 Q 40 15 47 30" />
+                <path d="M 47 30 Q 58 25 68 52" />
+                <path d="M 24 40 Q 45 55 78 42" />
+                <path d="M 78 42 Q 82 55 86 40" />
             </svg>
 
             <div class="pin p1"></div>
@@ -263,6 +269,8 @@
             <div class="pin p5"></div>
             <div class="pin p6"></div>
             <div class="pin p7"></div>
+            <div class="pin p8"></div>
+            <div class="pin p9"></div>
 
             <div class="hud-overlay">
                 <div class="hud-label">System Mode</div>
@@ -279,7 +287,7 @@
     <section id="about" class="container">
         <h2 class="section-title">Global Network, Local Insights</h2>
         <p style="text-align: center; max-width: 800px; margin: 0 auto; font-size: 17px; color: #4b5563;">
-            weCRO bridges the gap between complex trial protocols and localized site infrastructure. We match global pipeline demands to optimal hospital resources dynamically.
+            weCRO-Feasibility bridges the gap between complex trial protocols and localized site infrastructure. We match global pipeline demands to optimal hospital resources dynamically.
         </p>
     </section>
 
@@ -306,7 +314,6 @@
     <section id="contact" class="contact-section">
         <h2 class="section-title">Schedule an Operational Evaluation</h2>
         <div class="form-container">
-            <!-- Tip: Replace action URL with your Formspree endpoint -->
             <form action="https://formspree.io" method="POST">
                 <div class="form-group">
                     <label for="name">Full Name</label>
@@ -334,8 +341,8 @@
     </section>
 
     <footer>
-        <p>&copy; 2026 weCRO Feasibility. All rights reserved.</p>
-        <p>Looking to collaborate? Reach out to us at weCRO-feasibility@gmail.com</p>
+        <p>&copy; 2026 weCRO-Feasibility. All rights reserved.</p>
+        <p>Looking to collaborate? Reach out to us at weCRO-Feasibility@gmail.com</p>
     </footer>
 
 </body>
