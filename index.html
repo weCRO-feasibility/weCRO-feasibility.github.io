@@ -20,38 +20,36 @@
         .hero-text h1 { font-size: 42px; margin-bottom: 20px; font-weight: 700; line-height: 1.2; }
         .hero-text p { font-size: 18px; margin-bottom: 30px; opacity: 0.9; }
 
-        /* --- Map Container Styling --- */
-        .map-viewport { width: 100%; max-width: 450px; height: 320px; background: #0f172a; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden; margin: 0 auto; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
-        
-        /* This ensures our new map stretches and fits the viewport perfectly */
-        .map-vector { width: 100%; height: 100%; opacity: 0.25; position: absolute; top: 0; left: 0; padding: 20px; pointer-events: none; }
+        /* --- Filtering Map Animation Code --- */
+        .map-viewport { width: 100%; max-width: 450px; height: 320px; background: #0f172a radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px) 0 0 / 16px 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden; margin: 0 auto; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .map-bg { display: none; } 
         
         /* Interactive Radar Pulse Tracking Locations */
-        .pin { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); z-index: 10; }
-        .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; left: 0; top: 0; }
+        .pin { position: absolute; width: 10px; height: 10px; border-radius: 50%; transform: translate(-50%, -50%); animation: filterLoop 14s infinite; }
+        .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; }
         
-        /* Map Pin Placements */
-        .p1 { top: 30%; left: 22%; animation: filterLoop 14s infinite; animation-delay: 0s; }
-        .p2 { top: 40%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }
-        .p3 { top: 28%; left: 78%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }
-        .p4 { top: 62%; left: 38%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }
-        .p5 { top: 52%; left: 85%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }
+        /* Map Pin Data (Coordinates & Color Shifts) */
+        .p1 { top: 35%; left: 25%; animation-delay: 0s !important; }
+        .p2 { top: 45%; left: 60%; animation-delay: 1.5s !important; }
+        .p3 { top: 25%; left: 75%; animation-delay: 0.8s !important; }
+        .p4 { top: 65%; left: 40%; animation-delay: 2.2s !important; }
+        .p5 { top: 55%; left: 80%; animation-delay: 1.9s !important; }
 
         @keyframes filterLoop {
-            0%, 100% { background: #6b7280; opacity: 0.3; transform: scale(1); } 
-            20%, 45% { background: #3b82f6; opacity: 1; transform: scale(1.3); box-shadow: 0 0 15px #3b82f6; } 
-            55%, 85% { background: #ef4444; opacity: 1; transform: scale(1.6); box-shadow: 0 0 20px #ef4444; } 
+            0%, 100% { background: #6b7280; opacity: 0.3; } /* Scanning Mode */
+            20%, 45% { background: #3b82f6; opacity: 1; scale: 1.3; } /* General TAs Filter Match */
+            55%, 85% { background: #ef4444; opacity: 1; scale: 1.6; } /* High-Depth Oncology Match */
         }
         @keyframes pulse {
-            0% { transform: scale(1); opacity: 0.8; background: inherit; }
-            100% { transform: scale(3); opacity: 0; background: inherit; }
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(3); opacity: 0; }
         }
-        .pin::after { background: inherit; }
+        .pin.p1::after, .pin.p3::after, .pin.p5::after { background: inherit; }
         
-        /* HUD Display Code */
-        .hud-overlay { position: absolute; bottom: 15px; left: 15px; right: 15px; background: rgba(15, 23, 42, 0.85); padding: 12px 18px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px); z-index: 20; }
-        .hud-label { font-size: 11px; text-transform: uppercase; color: #94a3b8; }
-        .hud-value { font-size: 14px; font-weight: bold; color: #3b82f6; }
+        /* Floating Interface overlay cards */
+        .hud-overlay { position: absolute; bottom: 15px; left: 15px; right: 15px; background: rgba(15, 23, 42, 0.85); padding: 12px 18px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px); display: flex; justify-content: space-between; align-items: center; }
+        .hud-label { font-size: 11px; text-transform: uppercase; tracking: 1px; color: #94a3b8; }
+        .hud-value { font-size: 14px; font-weight: bold; color: #3b82f6; animation: textSwitch 14s infinite; }
         
         @keyframes textSwitch {
             0%, 100% { content: "Scanning Global Sites..."; color: #94a3b8; }
@@ -60,7 +58,7 @@
         }
         .hud-value::before { content: "Initializing..."; animation: textSwitch 14s infinite; }
 
-        /* Layout Structure styling */
+        /* Structure Layouts */
         .container { padding: 80px 10%; max-width: 1200px; margin: 0 auto; }
         .section-title { text-align: center; font-size: 32px; color: #0f172a; margin-bottom: 40px; position: relative; }
         .section-title::after { content: ''; display: block; width: 50px; height: 3px; background: #2563eb; margin: 10px auto 0; }
@@ -69,12 +67,12 @@
         .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); border: 1px solid #e5e7eb; }
         .card h3 { color: #0f172a; margin-bottom: 15px; font-size: 20px; }
 
-        /* Form Structure Styling */
+        /* --- Secure Contact Form Framework --- */
         .contact-section { background-color: #f1f5f9; padding: 80px 10%; }
         .form-container { background: white; max-width: 600px; margin: 0 auto; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
         .form-group { margin-bottom: 20px; }
         .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #334155; font-size: 14px; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; transition: border 0.3s; }
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
         .submit-btn { background: #2563eb; color: white; border: none; padding: 14px 28px; width: 100%; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; }
         .submit-btn:hover { background: #1d4ed8; }
@@ -100,29 +98,14 @@
             <p>Accelerating feasibility mapping across all major therapeutic areas with deep investigator networks and specialized execution paths.</p>
         </div>
         
-        <!-- Upgraded Vector Map Display Panel -->
+        <!-- Live Map Interface Visualization -->
         <div class="map-viewport">
-            <!-- This clean SVG contains physical vector paths outlining world continents -->
-            <svg class="map-vector" viewBox="0 0 360 180" fill="#475569">
-                <!-- North America -->
-                <path d="M40,30 L80,25 L100,45 L85,75 L65,70 L50,85 L35,60 Z"/>
-                <!-- South America -->
-                <path d="M85,78 L105,90 L95,140 L80,150 L75,110 Z"/>
-                <!-- Africa -->
-                <path d="M160,65 L200,60 L220,90 L205,135 L180,140 L165,100 Z"/>
-                <!-- Europe & Asia -->
-                <path d="M160,25 L220,20 L300,25 L320,65 L260,80 L220,60 L180,50 Z"/>
-                <!-- Australia -->
-                <path d="M280,110 L310,115 L305,135 L275,130 Z"/>
-            </svg>
-            
-            <!-- Pulsing Target Site Coordinates -->
+            <svg class="map-bg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5"><path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm10-8c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8z"/></svg>
             <div class="pin p1"></div>
             <div class="pin p2"></div>
             <div class="pin p3"></div>
             <div class="pin p4"></div>
             <div class="pin p5"></div>
-            
             <div class="hud-overlay">
                 <div>
                     <div class="hud-label">System Mode</div>
@@ -159,10 +142,42 @@
         </div>
     </section>
 
-    <!-- Operational Lead Form -->
+    <!-- Interactive Contact Form Block -->
     <section id="contact" class="contact-section">
         <h2 class="section-title">Schedule an Operational Evaluation</h2>
         <div class="form-container">
+            <!-- Tip: Replace "your-id-here" with your Formspree code to activate this form -->
             <form action="https://formspree.io" method="POST">
                 <div class="form-group">
                     <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Work Email</label>
+                    <input type="email" id="email" name="email" placeholder="j.doe@company.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Primary Inquiry Goal</label>
+                    <select id="interest" name="interest">
+                        <option value="demo">Request Site-Mapping Demo</option>
+
+                        <option value="feasibility">Immediate Feasibility RFP</option>
+                        <option value="partnership">Hospital Network Partnership</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Therapeutic Focus / Requirements</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Describe your indication requirements, timelines, or protocol specifics..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 weCRO Feasibility. All rights reserved.</p>
+        <p>Looking to collaborate? Reach out to us at weCRO-feasibility@gmail.com</p>
+    </footer>
+
+</body>
+</html>
