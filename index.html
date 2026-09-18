@@ -22,7 +22,7 @@
 
         /* --- Filtering Map Animation Code --- */
         .map-viewport { width: 100%; max-width: 450px; height: 320px; background: #0f172a radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px) 0 0 / 16px 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden; margin: 0 auto; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
-        .map-bg { display: none; } 
+        .map-bg { width: 100%; height: 100%; opacity: 0.25; position: absolute; top: 0; left: 0; pointer-events: none; }
         
         /* Interactive Radar Pulse Tracking Locations */
         .pin { position: absolute; width: 10px; height: 10px; border-radius: 50%; transform: translate(-50%, -50%); animation: filterLoop 14s infinite; }
@@ -100,7 +100,7 @@
         
         <!-- Live Map Interface Visualization -->
         <div class="map-viewport">
-            <svg class="map-bg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5"><path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm10-8c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8z"/></svg>
+        <svg class="map-bg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5"><path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm10-8c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8z"/></svg>
             <div class="pin p1"></div>
             <div class="pin p2"></div>
             <div class="pin p3"></div>
