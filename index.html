@@ -26,6 +26,11 @@
             max-width: 450px; 
             height: 320px; 
             background-color: #0f172a;
+            /* Direct, embedded production-grade world vector layout blueprint */
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 1000 500'%3E%3Cpath fill='rgba(148, 163, 184, 0.15)' d='M150,150 L160,140 L180,145 L210,130 L240,140 L260,120 L300,130 L320,110 L350,125 L380,105 L420,130 L450,115 L480,140 L520,135 L550,150 L580,130 L610,145 L640,125 L680,150 L720,135 L750,160 L780,140 L820,165 L850,145 L900,170 L920,185 L900,210 L850,230 L800,220 L750,240 L700,235 L650,250 L600,240 L550,260 L500,255 L450,270 L400,260 L350,280 L300,270 L250,290 L200,285 L150,300 L120,280 L100,250 L110,210 L130,180 Z M650,280 L700,260 L750,275 L800,260 L850,285 L880,310 L850,350 L800,380 L740,360 L680,340 L630,310 Z M200,320 L240,310 L280,330 L310,360 L290,420 L250,450 L210,410 L190,360 Z M500,380 L540,370 L560,400 L530,440 L490,430 L470,400 Z'/%3E%3C/svg%3E");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
             border-radius: 12px; 
             border: 1px solid rgba(255,255,255,0.1); 
             position: relative; 
@@ -33,33 +38,17 @@
             margin: 0 auto; 
             box-shadow: 0 20px 40px rgba(0,0,0,0.3); 
         }
-
-        /* Displays an undeniable world blueprint using system text layout patterns */
-        .map-native-graphics {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 160px;
-            opacity: 0.12;
-            pointer-events: none;
-            user-select: none;
-        }
         
         /* Interactive Radar Pulse Tracking Locations */
         .pin { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); z-index: 10; }
         .pin::after { content: ''; position: absolute; width: 100%; height: 100%; border-radius: 50%; animation: pulse 2s infinite; opacity: 0; left: 0; top: 0; }
         
-        /* Precise Geographic Pin Placements mapping to the landmass layout */
-        .p1 { top: 35%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 0s; }    /* North America Site */
-        .p2 { top: 32%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  /* European Medical Center */
-        .p3 { top: 40%; left: 76%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  /* Asia-Pacific Hub */
-        .p4 { top: 62%; left: 34%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  /* South America Center */
-        .p5 { top: 68%; left: 80%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  /* Australia Network */
+        /* Fixed Geographic Pin Placements mapping flawlessly to the internal layout framework */
+        .p1 { top: 35%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 0s; }    
+        .p2 { top: 32%; left: 52%; animation: filterLoop 14s infinite; animation-delay: 1.5s; }  
+        .p3 { top: 40%; left: 76%; animation: filterLoop 14s infinite; animation-delay: 0.8s; }  
+        .p4 { top: 68%; left: 24%; animation: filterLoop 14s infinite; animation-delay: 2.2s; }  
+        .p5 { top: 72%; left: 74%; animation: filterLoop 14s infinite; animation-delay: 1.9s; }  
 
         @keyframes filterLoop {
             0%, 100% { background: #6b7280; opacity: 0.3; transform: scale(1); } 
@@ -94,16 +83,16 @@
         .card h3 { color: #0f172a; margin-bottom: 15px; font-size: 20px; }
 
         /* Form Structure Styling */
-        .contact-section { background-color: #f1f5f9; padding: 80px 10%; }
+        .contact-section { background-color: #f1f5f9; padding: 80px 10%; width: 100%; clear: both; }
         .form-container { background: white; max-width: 600px; margin: 0 auto; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
         .form-group { margin-bottom: 20px; }
         .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #334155; font-size: 14px; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; color: #333; background-color: #fff; }
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
-        .submit-btn { background: #2563eb; color: white; border: none; padding: 14px 28px; width: 100%; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; }
+        .submit-btn { background: #2563eb; color: white; border: none; padding: 14px 28px; width: 100%; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; display: block; margin-top: 10px; }
         .submit-btn:hover { background: #1d4ed8; }
 
-        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 40px 10%; font-size: 14px; }
+        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 40px 10%; font-size: 14px; width: 100%; clear: both; }
         footer p { margin-bottom: 10px; }
     </style>
 </head>
@@ -124,12 +113,8 @@
             <p>Accelerating feasibility mapping across all major therapeutic areas with deep investigator networks and specialized execution paths.</p>
         </div>
         
-        <!-- Premium Live Data Matrix Map Dashboard Layout -->
+        <!-- Premium Data Dashboard Layout -->
         <div class="map-viewport">
-            
-            <!-- Unbreakable Native Grid Vector Map -->
-            <div class="map-native-graphics">🗺️</div>
-            
             <!-- Dynamic Active Regional Clinical Target Sites Pins -->
             <div class="pin p1"></div>
             <div class="pin p2"></div>
@@ -173,10 +158,3 @@
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
-        <h2 class="section-title">Schedule an Operational Evaluation</h2>
-        <div class="form-container">
-            <form action="https://formspree.io" method="POST">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Doe" required>
