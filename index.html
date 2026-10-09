@@ -20,9 +20,7 @@
         .hero-text h1 { font-size: 42px; margin-bottom: 20px; font-weight: 700; line-height: 1.2; }
         .hero-text p { font-size: 18px; margin-bottom: 30px; opacity: 0.9; }
 
-        /* ============================================
-           D3 WORLD MAP VIEWPORT
-           ============================================ */
+        /* Map viewport */
         .map-viewport {
             width: 100%;
             max-width: 520px;
@@ -35,23 +33,9 @@
             margin: 0 auto;
             box-shadow: 0 24px 48px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.05);
         }
+        .map-viewport svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+        .country { fill: rgba(148, 163, 184, 0.10); stroke: rgba(148, 163, 184, 0.28); stroke-width: 0.4; }
 
-        .map-viewport svg {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            display: block;
-        }
-
-        /* Landmass styling */
-        .country {
-            fill: rgba(148, 163, 184, 0.10);
-            stroke: rgba(148, 163, 184, 0.28);
-            stroke-width: 0.4;
-        }
-
-        /* Radar sweep overlay */
         .radar-sweep {
             position: absolute;
             top: 50%; left: 50%;
@@ -70,24 +54,9 @@
         }
         @keyframes sweep { to { transform: translate(-50%,-50%) rotate(360deg); } }
 
-        /* Site pins */
-        .site-pin {
-            fill: #475569;
-            transition: fill 0.4s ease;
-            animation: pinLifecycle 18s ease-in-out infinite;
-        }
-        .site-pin-halo {
-            fill: none;
-            stroke: #ef4444;
-            stroke-width: 0.6;
-            opacity: 0;
-            transform-origin: center;
-            animation: haloPulse 2.4s ease-out infinite;
-        }
-        @keyframes haloPulse {
-            0%   { transform: scale(0.5); opacity: 0.9; }
-            100% { transform: scale(2.2); opacity: 0; }
-        }
+        .site-pin { fill: #475569; transition: fill 0.4s ease; animation: pinLifecycle 18s ease-in-out infinite; }
+        .site-pin-halo { fill: none; stroke: #ef4444; stroke-width: 0.6; opacity: 0; transform-origin: center; animation: haloPulse 2.4s ease-out infinite; }
+        @keyframes haloPulse { 0% { transform: scale(0.5); opacity: 0.9; } 100% { transform: scale(2.2); opacity: 0; } }
         @keyframes pinLifecycle {
             0%       { fill: #475569; }
             15%      { fill: #3b82f6; }
@@ -96,16 +65,7 @@
             100%     { fill: #475569; }
         }
 
-        /* Connection arcs */
-        .site-arc {
-            fill: none;
-            stroke: #ef4444;
-            stroke-width: 0.35;
-            stroke-dasharray: 400;
-            stroke-dashoffset: 400;
-            opacity: 0;
-            animation: drawArc 18s ease-in-out infinite;
-        }
+        .site-arc { fill: none; stroke: #ef4444; stroke-width: 0.35; stroke-dasharray: 400; stroke-dashoffset: 400; opacity: 0; animation: drawArc 18s ease-in-out infinite; }
         @keyframes drawArc {
             0%, 40%    { stroke-dashoffset: 400; opacity: 0; }
             55%        { stroke-dashoffset: 0;   opacity: 0.85; }
@@ -113,7 +73,6 @@
             95%, 100%  { stroke-dashoffset: 400; opacity: 0; }
         }
 
-        /* HUD overlay */
         .hud-overlay {
             position: absolute;
             bottom: 14px; left: 14px; right: 14px;
@@ -125,57 +84,20 @@
             -webkit-backdrop-filter: blur(10px);
             z-index: 3;
         }
-        .hud-label {
-            font-size: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1.4px;
-            color: #64748b;
-            margin-bottom: 4px;
-            font-weight: 600;
-        }
-        .hud-value {
-            position: relative;
-            height: 18px;
-            font-size: 13px;
-            font-weight: 600;
-            color: #e2e8f0;
-        }
-        .hud-value span {
-            position: absolute;
-            inset: 0;
-            opacity: 0;
-            animation: textCycle 18s ease-in-out infinite;
-        }
+        .hud-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1.4px; color: #64748b; margin-bottom: 4px; font-weight: 600; }
+        .hud-value { position: relative; height: 18px; font-size: 13px; font-weight: 600; color: #e2e8f0; }
+        .hud-value span { position: absolute; inset: 0; opacity: 0; animation: textCycle 18s ease-in-out infinite; }
         .hud-value span:nth-child(1) { animation-delay: 0s; }
         .hud-value span:nth-child(2) { animation-delay: 6s; color: #3b82f6; }
         .hud-value span:nth-child(3) { animation-delay: 12s; color: #ef4444; }
-
         @keyframes textCycle {
             0%, 2%    { opacity: 0; transform: translateY(4px); }
             6%, 28%   { opacity: 1; transform: translateY(0); }
             32%, 100% { opacity: 0; transform: translateY(-4px); }
         }
-
-        .hud-progress {
-            margin-top: 10px;
-            height: 2px;
-            background: rgba(148,163,184,0.12);
-            border-radius: 2px;
-            overflow: hidden;
-        }
-        .hud-progress::after {
-            content: '';
-            display: block;
-            height: 100%;
-            width: 0;
-            background: linear-gradient(90deg, #3b82f6, #ef4444);
-            animation: progress 18s ease-in-out infinite;
-        }
-        @keyframes progress {
-            0%   { width: 0%; }
-            50%  { width: 100%; }
-            100% { width: 0%; }
-        }
+        .hud-progress { margin-top: 10px; height: 2px; background: rgba(148,163,184,0.12); border-radius: 2px; overflow: hidden; }
+        .hud-progress::after { content: ''; display: block; height: 100%; width: 0; background: linear-gradient(90deg, #3b82f6, #ef4444); animation: progress 18s ease-in-out infinite; }
+        @keyframes progress { 0% { width: 0%; } 50% { width: 100%; } 100% { width: 0%; } }
 
         /* Structure */
         .container { padding: 80px 10%; max-width: 1200px; margin: 0 auto; }
@@ -186,12 +108,72 @@
         .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); border: 1px solid #e5e7eb; }
         .card h3 { color: #0f172a; margin-bottom: 15px; font-size: 20px; }
 
+        /* News section */
+        .news-section { background-color: #f1f5f9; padding: 80px 10%; }
+        .news-subtitle { text-align: center; color: #64748b; max-width: 700px; margin: -20px auto 40px; font-size: 16px; }
+        .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 1200px; margin: 0 auto; }
+        @media (max-width: 900px) { .news-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 600px) { .news-grid { grid-template-columns: 1fr; } }
+
+        .news-card {
+            display: flex;
+            flex-direction: column;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 22px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.25s ease;
+            min-height: 200px;
+        }
+        .news-card:hover {
+            border-color: #2563eb;
+            box-shadow: 0 12px 28px rgba(37, 99, 235, 0.10);
+            transform: translateY(-3px);
+        }
+        .news-badge {
+            display: inline-block;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 700;
+            padding: 4px 9px;
+            border-radius: 4px;
+            margin-bottom: 14px;
+            align-self: flex-start;
+        }
+        .badge-ai { background: rgba(37, 99, 235, 0.10); color: #2563eb; }
+        .badge-reg { background: rgba(239, 68, 68, 0.10); color: #dc2626; }
+        .news-title {
+            font-size: 15.5px;
+            font-weight: 600;
+            color: #0f172a;
+            line-height: 1.4;
+            margin-bottom: 16px;
+            flex-grow: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #94a3b8;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 12px;
+        }
+        .news-meta .source { font-weight: 600; color: #64748b; }
+        .news-updated { text-align: center; font-size: 12px; color: #94a3b8; margin-top: 30px; }
+
         /* Contact */
-        .contact-section { background-color: #f1f5f9; padding: 80px 10%; }
-        .form-container { background: white; max-width: 600px; margin: 0 auto; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+        .contact-section { background-color: #ffffff; padding: 80px 10%; }
+        .form-container { background: #f8fafc; max-width: 600px; margin: 0 auto; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
         .form-group { margin-bottom: 20px; }
         .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #334155; font-size: 14px; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; transition: border 0.3s; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; outline: none; transition: border 0.3s; background: #ffffff; }
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
         .submit-btn { background: #2563eb; color: white; border: none; padding: 14px 28px; width: 100%; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; }
         .submit-btn:hover { background: #1d4ed8; }
@@ -207,6 +189,7 @@
         <nav>
             <a href="#about">About</a>
             <a href="#services">Capabilities</a>
+            <a href="#news">Industry News</a>
             <a href="#contact">Request Demo</a>
         </nav>
     </header>
@@ -217,7 +200,6 @@
             <p>Accelerating feasibility mapping across all major therapeutic areas with deep investigator networks and specialized oncology execution paths.</p>
         </div>
 
-        <!-- D3 Real World Map -->
         <div class="map-viewport" id="mapViewport">
             <div class="radar-sweep"></div>
             <div class="hud-overlay">
@@ -235,7 +217,7 @@
     <section id="about" class="container">
         <h2 class="section-title">Global Network, Local Insights</h2>
         <p style="text-align: center; max-width: 800px; margin: 0 auto; font-size: 17px; color: #4b5563;">
-            WeClinicalCRO bridges the gap between complex trial protocols and localized site infrastructure. We match global pipeline demands to optimal hospital resources dynamically.
+            Regulatory innovation has solved the front end of clinical trials. The bottleneck has moved — to sites. To patient access. To execution. WeClinicalCRO exists to close that gap: matching your protocol to hospitals that can actually deliver — the right patient population, the right investigators, the right infrastructure, and the right evidence of prior performance.
         </p>
     </section>
 
@@ -259,11 +241,19 @@
         </div>
     </section>
 
+    <section id="news" class="news-section">
+        <h2 class="section-title">Latest in AI & Clinical Development</h2>
+        <p class="news-subtitle">Daily-updated headlines on artificial intelligence in clinical trials and regulatory developments across the pharmaceutical industry.</p>
+        <div class="news-grid" id="newsGrid">
+            <p style="grid-column: 1/-1; text-align:center; color:#64748b;">Loading latest headlines…</p>
+        </div>
+        <p class="news-updated" id="newsUpdated"></p>
+    </section>
+
     <section id="contact" class="contact-section">
         <h2 class="section-title">Schedule an Operational Evaluation</h2>
         <div class="form-container">
             <form action="https://formspree.io/f/maennaww" method="POST">
-                <!-- Optional Formspree enhancements -->
                 <input type="hidden" name="_subject" value="New Demo Request — WeClinicalCRO">
                 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
@@ -294,8 +284,7 @@
 
     <footer>
         <p>&copy; 2026 WeClinicalCRO. All rights reserved.</p>
-        <p>Looking to collaborate? Reach out to us at info@WeClinicalCRO.com</p>
-        <p style="margin-top: 12px; font-size: 12px; opacity: 0.6;">Site visits: <span id="views">—</span></p>
+        <p>Looking to collaborate? Reach out to us at info@weclinicalcro.com</p>
     </footer>
 
     <!-- D3 + TopoJSON -->
@@ -309,38 +298,33 @@
         const width  = viewport.clientWidth  || 520;
         const height = viewport.clientHeight || 340;
 
-        // --- SVG layer (below radar sweep + HUD) ---
         const svg = d3.select(viewport)
             .insert('svg', ':first-child')
             .attr('viewBox', `0 0 ${width} ${height}`)
             .attr('preserveAspectRatio', 'xMidYMid meet');
 
-        // Projection — Natural Earth looks premium for hero maps
         const projection = d3.geoNaturalEarth1()
             .scale(width / 5.8)
             .translate([width / 2, height / 2 + 8]);
 
         const path = d3.geoPath().projection(projection);
 
-        // --- Trial site coordinates (lat, lon) ---
         const sites = [
-            { name: 'Boston',    lat: 42.3601,  lon: -71.0589, delay: 0.0 },  // US East
-            { name: 'San Francisco', lat: 37.7749, lon: -122.4194, delay: 0.6 }, // US West
-            { name: 'London',    lat: 51.5074,  lon: -0.1278,  delay: 1.2 },  // UK
-            { name: 'Warsaw',    lat: 52.2297,  lon: 21.0122,  delay: 1.8 },  // Eastern EU
-            { name: 'Mumbai',    lat: 19.0760,  lon: 72.8777,  delay: 2.4 },  // India
-            { name: 'Beijing',   lat: 39.9042,  lon: 116.4074, delay: 3.0 },  // China
-            { name: 'Tokyo',     lat: 35.6762,  lon: 139.6503, delay: 3.6 },  // Japan
-            { name: 'São Paulo', lat: -23.5505, lon: -46.6333, delay: 4.2 },  // Brazil
-            { name: 'Sydney',    lat: -33.8688, lon: 151.2093, delay: 4.8 }   // Australia
+            { name: 'Boston',    lat: 42.3601,  lon: -71.0589, delay: 0.0 },
+            { name: 'San Francisco', lat: 37.7749, lon: -122.4194, delay: 0.6 },
+            { name: 'London',    lat: 51.5074,  lon: -0.1278,  delay: 1.2 },
+            { name: 'Warsaw',    lat: 52.2297,  lon: 21.0122,  delay: 1.8 },
+            { name: 'Mumbai',    lat: 19.0760,  lon: 72.8777,  delay: 2.4 },
+            { name: 'Beijing',   lat: 39.9042,  lon: 116.4074, delay: 3.0 },
+            { name: 'Tokyo',     lat: 35.6762,  lon: 139.6503, delay: 3.6 },
+            { name: 'São Paulo', lat: -23.5505, lon: -46.6333, delay: 4.2 },
+            { name: 'Sydney',    lat: -33.8688, lon: 151.2093, delay: 4.8 }
         ];
 
-        // --- Load & render world ---
         d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
             .then(world => {
                 const countries = topojson.feature(world, world.objects.countries);
 
-                // Graticule (subtle latitude/longitude grid)
                 const graticule = d3.geoGraticule10();
                 svg.append('path')
                     .datum(graticule)
@@ -349,7 +333,6 @@
                     .attr('stroke', 'rgba(148,163,184,0.06)')
                     .attr('stroke-width', 0.3);
 
-                // Countries
                 svg.append('g')
                     .selectAll('path')
                     .data(countries.features)
@@ -358,12 +341,11 @@
                     .attr('class', 'country')
                     .attr('d', path);
 
-                // --- Connection arcs between oncology hubs ---
                 const arcPairs = [
-                    [sites[0], sites[2]],  // Boston → London
-                    [sites[2], sites[4]],  // London → Mumbai
-                    [sites[0], sites[5]],  // Boston → Beijing
-                    [sites[5], sites[6]]   // Beijing → Tokyo
+                    [sites[0], sites[2]],
+                    [sites[2], sites[4]],
+                    [sites[0], sites[5]],
+                    [sites[5], sites[6]]
                 ];
 
                 arcPairs.forEach((pair, i) => {
@@ -380,7 +362,6 @@
                         .style('animation-delay', `${i * 0.5}s`);
                 });
 
-                // --- Site pins ---
                 const pinGroup = svg.append('g').attr('class', 'pins');
 
                 sites.forEach(site => {
@@ -388,13 +369,11 @@
                     const g = pinGroup.append('g')
                         .attr('transform', `translate(${x}, ${y})`);
 
-                    // Halo (pulses)
                     g.append('circle')
                         .attr('class', 'site-pin-halo')
                         .attr('r', 3)
                         .style('animation-delay', `${site.delay}s`);
 
-                    // Pin dot
                     g.append('circle')
                         .attr('class', 'site-pin')
                         .attr('r', 3.2)
@@ -402,7 +381,7 @@
                 });
             })
             .catch(err => {
-                console.warn('World map failed to load, showing fallback:', err);
+                console.warn('World map failed to load:', err);
                 svg.append('text')
                     .attr('x', width / 2)
                     .attr('y', height / 2)
@@ -414,7 +393,55 @@
     })();
     </script>
 
-    <!-- SiteViews counter (optional) -->
+    <!-- News feed renderer -->
+    <script>
+    (async function loadNews() {
+        const grid = document.getElementById('newsGrid');
+        const updated = document.getElementById('newsUpdated');
+        if (!grid) return;
+
+        try {
+            const res = await fetch('news.json?v=' + Date.now());
+            if (!res.ok) throw new Error('Failed to load news.json');
+            const data = await res.json();
+            const articles = (data.articles || []).slice(0, 6);
+
+            if (!articles.length) {
+                grid.innerHTML = '<p style="grid-column: 1/-1; text-align:center; color:#64748b;">News updates coming soon.</p>';
+                return;
+            }
+
+            grid.innerHTML = articles.map(a => {
+                const date = a.publishedAt
+                    ? new Date(a.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+                    : '';
+                const badgeClass = (a.category || '').toLowerCase().includes('regulatory') ? 'badge-reg' : 'badge-ai';
+                const safeTitle = (a.title || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                const safeSource = (a.source || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                return `
+                    <a class="news-card" href="${a.link}" target="_blank" rel="noopener noreferrer">
+                        <span class="news-badge ${badgeClass}">${a.category || 'News'}</span>
+                        <h3 class="news-title">${safeTitle}</h3>
+                        <div class="news-meta">
+                            <span class="source">${safeSource}</span>
+                            <span>${date}</span>
+                        </div>
+                    </a>
+                `;
+            }).join('');
+
+            if (updated && data.updatedAt) {
+                const u = new Date(data.updatedAt).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+                updated.textContent = `Last updated: ${u}`;
+            }
+        } catch (err) {
+            console.warn('News feed unavailable:', err.message);
+            grid.innerHTML = '<p style="grid-column: 1/-1; text-align:center; color:#64748b;">News feed is being initialised. Please check back soon.</p>';
+        }
+    })();
+    </script>
+
+    <!-- SiteViews counter -->
     <script
       src="https://unpkg.com/siteviews@2.1.2/dist/index.js"
       type="application/javascript"
