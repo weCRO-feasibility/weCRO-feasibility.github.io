@@ -118,6 +118,9 @@
 
         /* Cards grid */
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 20px; }
+        .grid-4 { grid-template-columns: repeat(4, 1fr); gap: 22px; }
+        @media (max-width: 1100px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 600px)  { .grid-4 { grid-template-columns: 1fr; } }
         .card { background: white; padding: 32px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); border: 1px solid #e5e7eb; transition: all 0.25s ease; }
         .card:hover { border-color: #2563eb; box-shadow: 0 12px 28px rgba(37,99,235,0.08); transform: translateY(-2px); }
         .card h3 { color: #0f172a; margin-bottom: 14px; font-size: 19px; }
@@ -181,13 +184,13 @@
 
     <!-- ============ HERO ============ -->
     <section class="hero">
-        <div class="hero-text">
-            <h1>Regulatory Timelines Are Shrinking.<br>Site Selection Shouldn't Hold You Back.</h1>
-            <p class="hero-lead">Global regulators are accelerating the path to first-in-human. Operation Trialblazer, EMA's FAST-EU, TGA's CTN scheme, China's NHC 818 Pathway, and the MHRA 14-day route are rewriting approval timelines.</p>
-            <p>But speed at the regulatory gate means nothing without the right hospitals behind it.</p>
+               <div class="hero-text">
+            <h1>Regulatory and Operational Timelines Are Shrinking.<br>Site Selection Shouldn't Hold You Back.</h1>
+            <p class="hero-lead">Global regulators are accelerating the path to first-in-human. Operation Trialblazer, EMA's FAST-EU, TGA's CTN scheme, China's NHC 818 Pathway, and the MHRA 14-day route are rewriting approval timelines. AI is compressing the downstream work too — protocol writing, data analysis, and report generation timelines can be expedited.</p>
+            <p>But speed at the regulatory gate means nothing without the right hospitals behind it. And without quality data from the right patients at those sites, even the fastest AI-driven process is built on weak foundations.</p>
             <p class="hero-emphasis"><strong>WeClinicalCRO identifies, qualifies, and delivers the sites that make your trial succeed</strong> — across every therapeutic area, with deep oncology expertise.</p>
-        </div>
-
+        </div> 
+        
         <div class="map-viewport" id="mapViewport">
             <div class="radar-sweep"></div>
             <div class="hud-overlay">
@@ -223,10 +226,14 @@
     </section>
 
     <!-- ============ CAPABILITIES: DATA + LOCAL EXPERTISE ============ -->
-    <section id="services" class="therapeutic-section">
+       <section id="services" class="therapeutic-section">
         <div class="container">
-            <h2 class="section-title">Ground Experience. Multi-Source Data. AI-Enhanced.</h2>
-            <div class="grid">
+            <h2 class="section-title">Every Factor Considered. Ground Experience. Multi-Source Data. AI-Enhanced.</h2>
+            <div class="grid grid-4">
+                <div class="card">
+                    <h3>⚖️ Multi-Factorial Consideration</h3>
+                    <p>Site selection is never just site experience and historical performance. We weigh competitive landscape, disease epidemiology, comparative start-up timelines, your development plan, prior KOL relationships, and local regulatory and reimbursement pathways alignment.</p>
+                </div>
                 <div class="card">
                     <h3>🌍 Ground Experience</h3>
                     <p>Direct, on-the-ground knowledge across every major trial region — we know which sites run trials well, which investigators deliver, and which hospitals have the infrastructure to match their reputation.</p>
