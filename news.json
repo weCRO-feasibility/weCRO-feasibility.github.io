@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-10-23T00:23:45.197Z",
+  "updatedAt": "2026-10-24T00:15:33.861Z",
   "articles": [
     {
-      "title": "Boehringer Ingelheim, Microsoft eye digital patient twins to rethink drug trials",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yYWpBa3MtQ1JBbnhEelZ0ZFBERlpaUGtzY1h2S21JMktETzlMcGxFVnRXOHhaWVcySmpMWnhPRGtubXVBdVplZ051SVY0bHkwUUJV?oc=5",
-      "publishedAt": "2026-10-22T19:21:46.000Z",
+      "title": "AI drug development startup Pathos AI closes $237M investment",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc2JuVmtMNkNmVTRfUjV3MmpfbFRzMWtEcEhfeGdKamZHYnhzdHNqcFVPYUtsWDU4clJlaGg5a2lHQ2czemFaV2sxc0tUQ09Xb2Y4S0lvNmVuNlBkODEzdm4xV1JtQlhRd2gtbjZkM25nMVdvX0o5VUUxUXhVbEx0NWhDREVoLWo1cE9wRjJDNFE0d05WaEpvTnRGaWZUdw?oc=5",
+      "publishedAt": "2026-10-23T20:02:00.000Z",
+      "source": "SiliconANGLE",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "BMS leads Pathos AI's $237M financing as the pair team up with Tempus AI on neurology",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wbnVGajJyaDlCTUV4YktVVTU0WWllV2xSTGY3X3haV1B4RDJHLWYzT1pTZm4zMlBFSWVpc3N5RmxqUC1PNUlGczN6LXFhVnBQY3Rz?oc=5",
+      "publishedAt": "2026-10-23T18:44:50.000Z",
       "source": "FirstWord Pharma",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Drug discovery is speeding up. But clinical trials are buckling under their own weight.",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLXV0bk05R0NBQnl1SWIxc3Y0YU9oUjItUHhJZDRpY0RsSmw4ZmhQREUtd01mRndMTExTRnFZOU9Ra0ZuaXhzSWlnc1lWcjRkdFlpWFlLblVoSl8tYlh5NFJXTUtDT2VDaTBDQVpEaDNsT3lDS0hmMUUyckJYaHhELVNySUVUdHVuVXlSaGhydzJEdjBjcW9V?oc=5",
-      "publishedAt": "2026-10-22T17:06:08.000Z",
-      "source": "PharmaVoice",
+      "title": "ATR Op-Ed in RealClearPolicy: Far From Killing Us, AI Is Saving Lives",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV2QtNUJGbTNBOUlSUXBmS1ZRS2YxRHRpTjdyNms1Q3BUMnRXb3RwTVNwc3Nfd1FXMURpdVV0aFZ1b25tem01cFlxMlZpazdlTXZ2VGNJNVg3Y0lRM0hBd1dMUkYzbnpwY0dWX1JqQm9SMmNHSzJuUE9TVnlweDljc0ZKSGZNUTF5a3FPbw?oc=5",
+      "publishedAt": "2026-10-23T18:35:37.000Z",
+      "source": "Americans for Tax Reform",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "KFSH Advances Healthcare Innovation Across AI, Robotic Surgery, Clinical Research and Emergency Care",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNa3RLQy1BYkdFanZjT0ZXaUNBdWprT1ZpVEZpc3VUZkJQWjg5Z1JFb0YybFpzSWxrb0QzUHRadWNrdURYS1E2Ymd4SjFlemZEaktKUmlGYnpzcEVKdThuZjN2Q2FXcUV5dWNYZ056VXJYaF9qSzFMcVBFU0xiLXozTHgwSC1hSUw0NUszeFNDa0d4VEJVcEIzS2QwbnNsX2hiTXN1U1ZPRTAwNkY2Y01ENkVKdEFsMC1kQmFVVGRLVW5aTTR3YlJaalRaWEZHZW1wNk1yT080aw?oc=5",
-      "publishedAt": "2026-10-22T13:00:00.000Z",
-      "source": "EIN News",
+      "title": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
+      "publishedAt": "2026-10-23T16:49:58.000Z",
+      "source": "Longevity.Technology",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AstraZeneca and Oracle Partner to Advance AI-Powered Clinical Trials and Patient Care",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNzZjemdUS2hWSU9ScUQ1NmhVSXJjOG9IOVdYT0dJbFF4emt4UEJmeDl0eXRDZ1R6Q2ZGdXpLSHllMDdQT3VZZVlIcWxuMEcwck04TTEtU3dna1pCU2pEUzJXMnlzbF9jNHFoVGstOG94MkNKNkRqdXNRcDJ3aGtSaWVnbUJaRzBEWk5pV0dwU2RrX3lmbWdTRnBXbnZrXzBwOHFzMHVFM094d1AzSFRXQzlJdFJObFFwSXM2M3czcGJ0S2tfRWVUa1phLUtLZw?oc=5",
-      "publishedAt": "2026-10-22T10:59:25.000Z",
-      "source": "EME Outlook Magazine",
+      "title": "Tempus AI Expands Drug Development Deals With Bristol Myers Squibb, Pathos AI",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcWxFUlFQQnRmandZV0pURE5rN1ZvaU9OT01PbUMxQ3EwZVYzYjBTcTBjMGtfV0RQQUdrU3VHa2paMXoxZGpUWkRfOXc0VDc3RFpUcjFHRURreEhRbVFtNkxoV1BkRy1ibXN0MnNUbHhlQ1VzVmVIQ1pQcjZsSDN5WlpSTWFlZkpwZU9QWXJ3WS1rZEx3bmZOYXpOeDZ4RlJnRHdxdUhnR2k4S3ht?oc=5",
+      "publishedAt": "2026-10-23T14:51:00.000Z",
+      "source": "GenomeWeb",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AI Could Bring Clinical Trials to Rural America",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ3QzajRiRTZPYWxHajkwQ1pROVB2cnBOS2dwMm5FRW9TVFYzWlM3ampRbWg1alExU0VDTHYybVVVV19RU3BPUXhUSXFkR1A3NnhOajJEc0dUMWFPa1hxUVZlWjBFdWlEQmRUanJ6Yi1SbU5hNldjaWx4U19LX09WamlVcXUzMjdI?oc=5",
-      "publishedAt": "2026-10-22T10:35:00.000Z",
+      "title": "Oncology Needs Living Evidence, Not More AI Summaries | Opinion",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWm84dEotd3I2UzNPcllBWUxzMnh0V01XQ3ZtR2dnb1BqOHR0N0lYQ0h4SXV4NE01eDZ2MzZoaHdOWmNIZG9pS2JTRHJlclRhcVNwbDFobXlFQU5XZXZ4a2NreE8yejhDM1oyWXZQRC11eTQ5dkc1T2FLSVV2ZmEzd1hBWFNnTEpIV1huQVdLN1o5c2M?oc=5",
+      "publishedAt": "2026-10-23T13:17:00.000Z",
       "source": "Newsweek",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "South African AI platform Secures Global Recognition For Unique Tool That Helps Researchers Prep Clinical Trials For Medicines & Vaccines, Faster",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUDJxeDNoekhMcDRTZXJwczJKVUQ2anFraU5ySkg5ZjNzUDctMUhoN1lYaDJDUFJySnZENVNrMkNuR2VUUFZKcFNLVGVrYlVTM1NJbzl1dnJLamd1bWFnYkRMTGRSZW5ic1pSWmhSQnhCSUtqclpHLTVpcjlKY1oySUlib2dnLXctZ0g4Z0xKOGx1UEt5dVVDUzQ2MWRwTUZOdWNXM195MWpQbVBtbmNfNjlHeDV0OWljTmFXZ2NENlY2YjFRTklwQ09iUnQ5THFfLXVYOGxuaHExVndoU1YtZjc5Xzg1VkhnUUZ5bVNXTm41eFhrR2c?oc=5",
-      "publishedAt": "2026-10-22T10:19:26.000Z",
-      "source": "iAfrica.com",
       "category": "AI in Clinical Trials"
     }
   ]
