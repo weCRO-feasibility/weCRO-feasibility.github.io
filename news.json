@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-10-24T00:15:33.861Z",
+  "updatedAt": "2026-10-24T23:59:30.149Z",
   "articles": [
+    {
+      "title": "Pathos AI Secures $237M in Series E Financing to Scale Agentic AI Drug Development Platform and Advance Oncology Pipeline",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUHIwenBJU3lpWG5xNW5HbllKYVpvdHgxbUdJVndpYXBXV0JHOEtNeXRxVkNXdnhQNVpKR0w5RHdFS1Z3Zi1qbG03TzQ5VEtMdmV1cWo5TmtCa2lWQWRzRXVyVkJQSFkwc0YxeGFxOEd0UGxqbGhkbDRaQkJMT01laHRjbHpiUnh3ZFZXM0xjMUlxM3JCUjNVeGpMcHozaGxSZ2QtczQtOG1IY1BWVUlibXBPWi1Bd0xLcXRTSExGVy1DWWFtcWJHaE1EdzhrcDIzVjRRS0tpbWFDVEdzeFg1NklIdUFCUTJZbVZZWlJPaw?oc=5",
+      "publishedAt": "2026-10-24T17:51:22.000Z",
+      "source": "AI Insider",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "Miguel Bronchud: AI Can Guide Cancer Drug Discovery, but Clinical Validation Still Matters",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NNXJfUW5oVjRpZmRHNVVKMFc3OW5MNEZXRTE2OUpMbnNRSGxGQmRBWnV0UHR2Y3hwZFVKYmdjckd5aVUyVk9DMzlGYm9HN2NlRUNwZ0otU3ljWFJkYk9mNkFR?oc=5",
+      "publishedAt": "2026-10-24T10:55:28.000Z",
+      "source": "Oncodaily",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "Suvoda Expands AI Automation Across New Clinical Trials",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQmZQWEFXLUlmUlh3aWhTT3F3U2ZnMG9LVHhjWEJnZXhrTElCaEVqNlZkaGxSZEF5R1dFMzZYX29teHB3Wi0tNlU3R0I5MjFyUmpiQ2g0bmtLcVE1SEQzSjFJWkctYno2SFk2aHNlVWlXWTFMRFg3Z0ZXN2NhdWRDWl91OUJxcklPS2J6a09IdjJFRVIxX3VRcFNHbG1Odw?oc=5",
+      "publishedAt": "2026-10-24T10:28:34.000Z",
+      "source": "MyChesCo",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "Bristol Myers Squibb (BMY) Bets On AI Drug Discovery And Wider Trial Access",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTWk2WjU4U1V6ODEzV3dTMDZOeV9TRDdrVVdSYWJkVW90YWY1NGt5Sk1odnAyNGtLa2J6MmtURDF1NGxPY3piWVdEVExkOXRtUTA0YlFuOUI5UVZqSTJqVm82dFR4MTdGSS05dFJtTTB1QVdaVGhfZDMxX1FKQV9MZ3lPMWllNDIzblcxS0UyTkxxNEg4?oc=5",
+      "publishedAt": "2026-10-24T01:09:00.000Z",
+      "source": "Yahoo Finance",
+      "category": "AI in Clinical Trials"
+    },
     {
       "title": "AI drug development startup Pathos AI closes $237M investment",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc2JuVmtMNkNmVTRfUjV3MmpfbFRzMWtEcEhfeGdKamZHYnhzdHNqcFVPYUtsWDU4clJlaGg5a2lHQ2czemFaV2sxc0tUQ09Xb2Y4S0lvNmVuNlBkODEzdm4xV1JtQlhRd2gtbjZkM25nMVdvX0o5VUUxUXhVbEx0NWhDREVoLWo1cE9wRjJDNFE0d05WaEpvTnRGaWZUdw?oc=5",
@@ -11,36 +39,8 @@
     {
       "title": "BMS leads Pathos AI's $237M financing as the pair team up with Tempus AI on neurology",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wbnVGajJyaDlCTUV4YktVVTU0WWllV2xSTGY3X3haV1B4RDJHLWYzT1pTZm4zMlBFSWVpc3N5RmxqUC1PNUlGczN6LXFhVnBQY3Rz?oc=5",
-      "publishedAt": "2026-10-23T18:44:50.000Z",
+      "publishedAt": "2026-10-23T19:24:10.000Z",
       "source": "FirstWord Pharma",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "ATR Op-Ed in RealClearPolicy: Far From Killing Us, AI Is Saving Lives",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV2QtNUJGbTNBOUlSUXBmS1ZRS2YxRHRpTjdyNms1Q3BUMnRXb3RwTVNwc3Nfd1FXMURpdVV0aFZ1b25tem01cFlxMlZpazdlTXZ2VGNJNVg3Y0lRM0hBd1dMUkYzbnpwY0dWX1JqQm9SMmNHSzJuUE9TVnlweDljc0ZKSGZNUTF5a3FPbw?oc=5",
-      "publishedAt": "2026-10-23T18:35:37.000Z",
-      "source": "Americans for Tax Reform",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "Beyond Alzheimer’s: Quantum AI hunts new uses for XPro",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5",
-      "publishedAt": "2026-10-23T16:49:58.000Z",
-      "source": "Longevity.Technology",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "Tempus AI Expands Drug Development Deals With Bristol Myers Squibb, Pathos AI",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcWxFUlFQQnRmandZV0pURE5rN1ZvaU9OT01PbUMxQ3EwZVYzYjBTcTBjMGtfV0RQQUdrU3VHa2paMXoxZGpUWkRfOXc0VDc3RFpUcjFHRURreEhRbVFtNkxoV1BkRy1ibXN0MnNUbHhlQ1VzVmVIQ1pQcjZsSDN5WlpSTWFlZkpwZU9QWXJ3WS1rZEx3bmZOYXpOeDZ4RlJnRHdxdUhnR2k4S3ht?oc=5",
-      "publishedAt": "2026-10-23T14:51:00.000Z",
-      "source": "GenomeWeb",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "Oncology Needs Living Evidence, Not More AI Summaries | Opinion",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWm84dEotd3I2UzNPcllBWUxzMnh0V01XQ3ZtR2dnb1BqOHR0N0lYQ0h4SXV4NE01eDZ2MzZoaHdOWmNIZG9pS2JTRHJlclRhcVNwbDFobXlFQU5XZXZ4a2NreE8yejhDM1oyWXZQRC11eTQ5dkc1T2FLSVV2ZmEzd1hBWFNnTEpIV1huQVdLN1o5c2M?oc=5",
-      "publishedAt": "2026-10-23T13:17:00.000Z",
-      "source": "Newsweek",
       "category": "AI in Clinical Trials"
     }
   ]
