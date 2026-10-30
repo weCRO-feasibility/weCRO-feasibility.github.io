@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-10-29T01:32:52.811Z",
+  "updatedAt": "2026-10-30T01:32:03.357Z",
   "articles": [
     {
-      "title": "Brainomix's AI software flags potential responders to Remedy's stroke drug",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BZ1lRU2drdW52cm5id3VOQXJZLVk1NFdHUVlnSkJ5VVU3TWYxY1JaYjQ2ampHS3JEVzV6OG5LdFM0OFctOFlmSGFQN1ZsUlZuYklN?oc=5",
-      "publishedAt": "2026-10-28T21:31:39.000Z",
-      "source": "FirstWord Pharma",
+      "title": "AI-guided coronary CT angiography may sharpen cardiovascular risk assessment in diabetes",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd3dLdlgwdHV6alBIX3VJMDBqUzNJTDZJR1lWYV9YMDJIa3EtZ0VRc2ZHQWM2LU01OVBQb1ZqcEhTcXVrYS12ZlU1b1gtWjFaY24wLWdNcnppWk16ekQ1OW1zcmFsSWZnOElDQW1hZ2p6QWRqZUpFQk42LXBLMTZjU2RIeVg1NUt4QTFMQ0ZoTEVRbVpsV0drcHdsRGNlVGhkUTNQU0x2NllqRlFSYk9fMGM0NA?oc=5",
+      "publishedAt": "2026-10-30T01:02:35.000Z",
+      "source": "Bioengineer.org",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Anthropic: Early Progress on Accelerating Drug Development with Claude",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdS1JRUI0MWlpbzFROWM1QXJ5eVpoeXBoNHZwOFlFLXVLVElmY08tcVl6Q3NoU3RQampWSTRDb1pSUE80V2t2UV82N3BZcG5PMEVYVXNzR0stM08waWNJUlJoZ2RtRkNkdlljZVhNVGFSbEJPWkFyUmVobEhsZmFCelZrd3RlSmxaaDNsUElfdW5RU1QwcU9VekNQOEJiZG5aUnVmNWozZVh5emdjSS0yOUpB?oc=5",
-      "publishedAt": "2026-10-28T20:38:59.000Z",
-      "source": "HPCwire",
+      "title": "Agentic AI speeds and standardizes detection of immune-related adverse events",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTHF0WVF2NzdxV1ZBMEtMUlpJSXhxWmphTlM3SHdkV0c4S0FBSmtfN3hjRnZBeHpoSmlxN0JCbm01SUV1MkZjOTJFYXNFUW81Z2Q0Z1pfYk9ySk02SVBnR3liT2lWLVlGWDR4Mmp4UGZBR0xXNnRJQVFkZzNyMGlPM1J3SGwzRU9iT1JKdW9HYm5xT2FzQUtfMnl2UUw2LThKNFhoeQ?oc=5",
+      "publishedAt": "2026-10-29T11:42:58.000Z",
+      "source": "Bioengineer.org",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Big Pharma Partners With AI Firms to Cut Drug Failures",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb1pPb0hTVmZ6VGI1RzZkTzlsV0JtN1RUOWNQREZuTkVIU3Y4eEdWaGdRSjhBb09yRXExdVRJRWdfQWk0aGhJb1B2OEN0eG40NDNkVlBYeXVDaFNSazdnRElnakhOcmZVLU94eGlSZWZVZHppM0VMNHozMFBrM2tGNlkyd1B2bnVx?oc=5",
-      "publishedAt": "2026-10-28T15:36:22.000Z",
-      "source": "조선일보",
+      "title": "Can Psychedelics Restore Consciousness? The Trial Design Problem Nobody Is Ready For",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVkpZVEpjZkx6UTVrS01PLUsyUm9DMno1V1V3WGlQaGMyYXF6NEo5MGg1X3BJYWxjY3dXdjdLblNmWmpvMUhJNElzQjNtdk05OGRaWXFUV2Rkd3hpd2tvM29ILVpnYmVjRGlDdDI2ZmZmU2VsWnF2ZlljNXAyN0UwOFhNSVA3M2xfQmRzMllfVHV1V2xyaEJfUzQzaDdwX1d4YkEtMmc2VUtmbjhTTTFCVmJoNndGRWZJd0gxLTdhR0JEOXZYUlBfdGNRMjJhazFNSjFLdm5veDF4Zw?oc=5",
+      "publishedAt": "2026-10-29T11:05:04.000Z",
+      "source": "The Clinical Trial Vanguard",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "What a cancer survivor sees that AI could miss in trial design",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZzRROFdlaUNsRHhUa0xuYTBVX2dnY3dmazNDSXNEYjhkd3RHOWN1VHlfcUFQcGs1S1ZxZzE2RHU0b3FRMmdRWWEwRzM5YjVYanJ3TU9GUnd2RzRBQkRIYjlWSG04LU9ma2VVVHFpVm1jWVlsSG1feHlxdV83Sms2UWNySGI0bER6ZkUxOGxkQkNUMjdWWkdONmJIVDRKcHFZTFE?oc=5",
-      "publishedAt": "2026-10-28T13:10:33.000Z",
-      "source": "Pharma Voice",
+      "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iRFBybUh5U3pPSk50a00ta1hLMG1PVVJ2RVJqWGxyNTNNMlJkTnVVMGViQWZfUnI5R3VQUy1HdlAxQ29hUV9DNExlWU5xMTZfalg1OWIyMnNncGVqMHQ4?oc=5",
+      "publishedAt": "2026-10-29T11:01:58.000Z",
+      "source": "Nature",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Appian and PSI CRO launch AI solution for clinical trials By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaWQ0SWszX2J1X0lNSjd1Z0JLaFY4d3VFWG8wRVZsYUZBWUlUdWxNX2luTWVJUzhISGxyYlROWmVHaHh6d29YWlliSnFfMFpnZld5T1RaOEVaR1Z1b0stNTY5bGhsQS13Y1NxamJvUnJBaUMyRTJIbnN0d00yRG5aMTl2bi1vOXBiVG9tVllDQVdLM0NlRzVxYXE1eVdGNWpoaG9VZFNPWnc0Nml4cmozX1MtdmdZYkFnLXc?oc=5",
-      "publishedAt": "2026-10-28T13:10:00.000Z",
-      "source": "Investing.com UK",
+      "title": "What PPMI’s Pre-Symptomatic Parkinson’s Cohort Teaches Sites About Biomarker-Driven Screening",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObGd4SFVjZGJCeTlaRmY5eGhFZWlNaXp4QjVRajdYWHhOQU5YdTF3b2NVVTVLMEgyX0s1eGs2a084ZVlrSkdIbkJLaWhZT1duUlZhV0VCTWFGVzVGak5XcXJPVy1lMEwzZ1dYNm0wd2Q0OG94YnpYNDRKbnFySjBSVFZWSlhIbFA0UFpwX0RzZ1FwMEl5dHhaMXRYU3hNTDVDdXBfMjM1N2Y4V3YwSHVCeklrWDJ3clZ4SExYSWlHM0JpNmJlNHlpV3k2MVAzZFdlcUVKSHJNUGFZSDNWc3FuaWNlQ2s0Z2Ftakw0?oc=5",
+      "publishedAt": "2026-10-29T09:00:04.000Z",
+      "source": "The Clinical Trial Vanguard",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Appian and PSI CRO launch AI tool for clinical trial site selection",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX2tnSDYwY3pQSUo3by1NNVF6UHJfa1hRRzQ4QU83Q3ZNaXZ3dFlkTFRoZjlWOUk1OWoweURoeW9nQUMyckg0WE1odjE0YWMySU1CXzdEQlZWUHV6QjJpNWJkYW9Uc2lnUlNJeXNEN0w5Vl9sSWpFYXh3bUlSMkl3dlpZeEJXQ0VLS1JhRE9Mb3JuV2htMDZrUmFWUl9TX0VnTnlobUIyWElWX2h2cWFlWHowcEd4SkF5MkhkNW9vZ2M1VXJa?oc=5",
-      "publishedAt": "2026-10-28T13:02:54.000Z",
-      "source": "StreetInsider",
+      "title": "EMA and AMA’s Joint Ebola Vaccine Guidance Is a Regulatory Harmonization Blueprint Sponsors Can’t Afford to Miss",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMHlBY0NYQkxxWnBnb0ZVWDVkLXlFRk05RHB6N2w2YWVYNXJIVENpNi11SGR3LU1sZHhJcVctTWpRWjlzRGR5Wnc3Y0xDSzRZamxiMFJzT0JrQlZ6ZEl4dUtYQWtWb0NqZUNvdDNUcUh1Skl6X2VzZVdTQlpPMUpqZnhURVd0MmFKWG1ZRVp6TEo1a2pYUkV6Tng0SHpzWUlhbDlidl9WVlpEb3JZMFdIRWNSMG9zZWZ4RjFoOVdpMzVFWmRFekotekFqN2wxNG9Da2tybUoxb3hYelJpZ0x4Y1RmeXp0SDhzRVc4aUp3V2I0RDJNbmtOT2Y1aWE0dw?oc=5",
+      "publishedAt": "2026-10-29T08:35:04.000Z",
+      "source": "The Clinical Trial Vanguard",
       "category": "AI in Clinical Trials"
     }
   ]
