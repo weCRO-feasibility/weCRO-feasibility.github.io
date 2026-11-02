@@ -1,11 +1,18 @@
 {
-  "updatedAt": "2026-11-01T00:41:10.518Z",
+  "updatedAt": "2026-11-02T01:16:12.520Z",
   "articles": [
     {
-      "title": "AI-Powered Clinical Intelligence Platforms: DxCheck Launches DxPro for Healthcare…",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeWNnYWl4SUZFNFhsaE1BRFN1ME00dDZTYTlxdjRCVkNzNUFCaDlQRGtHeF9IVDFKRFo2TlpjLUZ3RFY3SnNPU05aRGUwcG80eWhUVkkyZzdTcUxZWk5ZU2VNQTR6a2hMeTVXN3dLYi1xYVBzaFRYemJpdWJqa0E1RkpTZw?oc=5",
-      "publishedAt": "2026-10-31T15:54:32.000Z",
-      "source": "Trend Hunter",
+      "title": "AI accelerates natural product drug discovery, reshapes Korea research",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0Q2eGw1UEtfQWNaNHFmRDE4ZmY0Nm1QY2JEbEVmYy1kNUhrOVNlcUZhcUZ5Mmw5TWJPbHFhcGN3QkctLTFxekVpUDJvaE5iaF94VkZnNWJNN3I4dE50MG04R3ZCMUFOUU4tcVNvX2E4YzJ2ZFlndFhJTjI4QlVZedIBlAFBVV95cUxOWU5tMVBjdXZCWEJOLWNxS252REYxWlNDREpGazM1VjFTM2J0dndDeWRlN2F2QnBoeFZoMTh5YVJHdnZLMldnVUxFU3JsWlJsU3QybHJJQWhYblpWYWdmTDBZRzU3UnJOME40cmktdVZUb3pMUG56UUtZRG96YS11MnBtU1FZVThoRFhOQzhyWWFsU1Zo?oc=5",
+      "publishedAt": "2026-11-01T21:00:00.000Z",
+      "source": "Chosunbiz",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "A Real-World Study of Patient-Facing AI in Primary Care",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSzdEZklkd2U2LVhiLVlpN3BUd3UzUXdHajVqekV0OVNsTVpITXNvVFJqYWVBbjlMVHJZLVQtMEFQaHZkRlpaQWdoNEdvZjhqUGNLQ3Jaa09ObWhQMmtRb19wVERRV3pzOEx4TDNhOGV5SktXSnBNQ1FpYzRxLVhzTGtjT1FTbHpOQ3diMUNDOG5wcWtzYVcyUEZ3?oc=5",
+      "publishedAt": "2026-11-01T06:30:00.000Z",
+      "source": "Technology Org",
       "category": "AI in Clinical Trials"
     },
     {
@@ -23,17 +30,10 @@
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AI-Created Virus Injected Into A Human For The First Time To Fight Antibiotic Resistance",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQXhDLS1Sd2lId3Q0S1lPUkJmdkZZeFQyRC00NW9NZk9DSWU0MWQ1cjQ0OTdLTzlYZkdya0J4UnMzdm82bEtsUDNZZF85MmVMRHlaaTNSVWlsNE1oZF9DU0pQblVJX29ENjBzWUJVT2tSWFpKdklzMXVPNFFkWnA2YnhhRzN6NDRkWU9KZ2gySmxzeEVjOEtleHNQZzhsazFSYUw1b1RoamJoQlJoNnVGMlYwN21ZT0lGcFFBblA3YTREb0JaLW1aZFFjaWNONURGWUpuY19IR3d4MnhKRzFN?oc=5",
-      "publishedAt": "2026-10-30T20:30:00.000Z",
-      "source": "Health and Me",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "Global Market for AI-Based Clinical Trial Solution Providers Poised for Significant Growth.",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSklCMWpERUlpeDNZSUh1b1BRVkU3TkIwbkFFeXdjbDhGRlVvbzVMRFFYSnEzV0Z2bTBDX1U0OEFpTTFjc2Y0VjJ4SVFza0JNZVVjNWZXa3BYSmhYQm1hRTh3ZnY1bzU1VUpjTTdvVGpIcmZ2UDM1SHprTk5wSW1TVVE1Y1BmMXhHMndtSW1SVThMVEhjeFhCa1JlbXl2TXZWclZLbU53Z3JWNVhUQldnaTBGRWJJYm1Lam5fa2VqcEtkSE5zNUVoZjhPcEc?oc=5",
-      "publishedAt": "2026-10-30T17:15:00.000Z",
-      "source": "EIN News",
+      "title": "$4 million NIH grant advances AI-guided heart failure treatment - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd2o1Ung0TlZTNWhUZ1dkelRrNTA3LWlLYmQ3eE9PUDMtUFJrYTRqbGVfUzdWZ1FjQUFzdjdDcUhfb1VuWk1DTF9vLW10QW5WNGs5enZmRkFUVzNURXlQUUcyamktUkcxeUl3TzVJTHh3c21VTmhpRGo2TzlvaGJOc3QxNDl3VDlRa2lYRGtYSkdnbkE5bHBiMTlUSUN4TEd4OGFXSDVwOWFjTGJjRTA0ZVpR?oc=5",
+      "publishedAt": "2026-10-31T03:22:00.000Z",
+      "source": "News-Medical",
       "category": "AI in Clinical Trials"
     },
     {
