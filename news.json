@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-11-14T01:58:03.055Z",
+  "updatedAt": "2026-11-15T01:30:14.743Z",
   "articles": [
     {
-      "title": "Six Studies Show Artificial Intelligence Can Augment Obstetric and Pediatric Clinical Decisions",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZzBHRGdpWEJTS1ZQUUd0T1RYampubjgxa1dFLW5Uam16OWcyTW9tMV9oNGNaanh4Z1Fxdjk5T052MktrM2xSX2RrLWhMMndEV1hHSjdYUEc5MkNMVV90RVlVRkY2Snp1WFZVT2xFWnhJN0pPUng0N183QjQxODNrNlRXTlNfRlp4azByNnZWYnBUVnFyM3RHSFZyV25Oa1ZVbVBwVUVMazR2UGljQU13X2tHOW14RWJtSHJ4YQ?oc=5",
-      "publishedAt": "2026-11-14T01:07:42.000Z",
+      "title": "Dyania Partners With Nvidia, Expands Clinical AI Use Cases",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaVlsdFBkLV8zSElndGVtU2hVbXZqMUthY2V6X2c0YzFmaWZiaHBvWjBka0F2aUVuNXNKbkVtRkp4dU93aF9wODBVOU5DLS0wNWlCNm1SNmRWbFo0S3RORi1DcWl0TzlJMDlEeVRHU3JuYVVyWVpHRi1YcjJHWUY4NG5Na1RfeXVyQU9iZDkwOVJ2SGVGUlY1dnptTWJrSUI0YkFfeTRmSGNIcEdRZXVEYVBkbUExVHJ1MU4zNzVsSTA1ZHZJZk4wT2ZmT1NJN3Bv?oc=5",
+      "publishedAt": "2026-11-14T17:11:39.000Z",
+      "source": "HCI Innovation Group",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "AI cuts early cancer drug discovery from 8 years to 3 months: Dr Siddhartha Mukherjee",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRDdrUzJuaGVVWGozeFlRZjJLNTZadWNZQ29CamVLTDYxaXU2ZFVPTDZtZHJTeDdCcUVpTGt4d2dwTWhhaUl1U3dCdnBlQ2dZTDNUeFVVUnhLaWw2OG9EQ1pYcjRiVllNSVYxSWdEX0tXR3o2UENrTHNfMFVBSS1wWmVQTF9Ccno0aVJEd0N1bkNYbnR6ZTdwY0k4aXV6QdIBowFBVV95cUxQa3JfaWdXWlpWcHlGUU5nc1ZVakEzVkVLb0hBLTdkR1Zoa0JKWmpKaGFEYU9tWnBwOVFUVjhUZFNQMkxneTlvYVFNa0NfTUVIVXE4Vjc1UlEyaUI5Z3RaQk9mUHZ1UTY1dktxZ0JMNm42Z20zZ19nRm9LRW85dnRoWXQ0Z0luOFh4NVN1UkNSeUdyNWc1ZkhOeUhQdGRjSUdSa2w0?oc=5",
+      "publishedAt": "2026-11-14T13:29:46.000Z",
+      "source": "Livemint",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "Dassault Systèmes stock: Singapore AI lab broadens regional push - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYW8xMTJDSkxESERCMWIySU54dG9xT1RsWElBX0dKNjJ4cXV2ZGVKYXVDM2xQakk3X19wcFJHS2xvLWVDbm9Wd3QtNV9BWVU5WHVXMW5DU3JZSHZsR3M1alBFZllWOC1MeXE5UUFSMlU5U2RLZGpoYjFCR0tnZHo1MTRNeU13emtPMTJoNHpmMUR3Q1JOOTdYdlJGYVFXZklpOE5PeEJ4WWpxRzBFd0phRG15NlNHbF9pZE9uZ2s1MTlqV0pu?oc=5",
+      "publishedAt": "2026-11-14T10:38:02.000Z",
+      "source": "ad-hoc-news.de",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "Review proposes clinical model for AI decision oversight",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVExXQk9BYkRWNy1CVlNBaHlJdldoVFVxUVNhQzZ0dUtwQnpBUkZEck1VWXV2Rm1lcGdOanNJd2xKZVBLbzJ1Y2N0cGlEU1BCdXJXSFhURFJYY0I2V2xsTnNnQ2NReGNrckZlXzZtOXBIbUhya1hIWjJzVlNLVkZoQjdYSUxwZFRQ?oc=5",
+      "publishedAt": "2026-11-14T05:13:39.000Z",
       "source": "Bioengineer.org",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Can AI Fix Clinical Trial Access in Oncology? Dr. Arturo Loaiza-Bonilla Built the Answer With the Data to Back It.",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcTJyLTZUd3UweVFsQVliSlNJYURDckpvY0ZrT1dEZkxMOWRXQ25DOEUtSE13Sjg5NVlfb0dQaE84WjFJcWI5S3VuNXNTZG0ydWY0Rm5mOUp0UnJPWFNyMWgzU3pwbUo4X0tRT0kwWTBscUdLcjZ6UDZkRzM4TDlTQTA4Y0FTLVZRaERFMG9aQzBLZU5vZmtZTU9fRFdVOGlTeTBObkkyMGxsdk5MYlN1ZDY4QzdfNDN4OTF1b3FkcnFtR2laUmR4cEhjR3RmQnZ3UUVXNHZ6THd3Z0MxSlQ1ag?oc=5",
-      "publishedAt": "2026-11-13T23:09:03.000Z",
-      "source": "CancerNetwork",
+      "title": "Eli Lilly CEO Pours Cold Water: AI Curing Cancer in a Decade \"Unlikely,\" Human Trials Remain the Bottleneck",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVNURKa0VBb1NVVGFfdXY5bXJXS3c2VTRBcXNyVjdvTmtVX05lclVJU1U3emtoLTd5b2Y5QjU1MGNLcDgzVGlLMkpFRXgzQXNQSkxQODZkdEdFXzJTLUNSNWV4SkhEdHd1ZVdZSUh1MjdZSW5GM3c?oc=5",
+      "publishedAt": "2026-11-14T03:38:36.000Z",
+      "source": "BigGo Finance",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Dyania Health Brings Clinical Reasoning AI Inside the Hospital Firewall to Advance Patient Care with NVIDIA | Newswise",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSlJaUGNpUHhzM1djMUp6NWI2WlhyYkU2V0Ftd2ZpeFg0a2lVakpKOXI4YXd4MXZTSGdMVWVrMkJ3TGQ0bUNBVVFJUmpqQUg0ZFI5R183a045Vy1ReEJvYVNMTlNxM1NwUWNVYXg1QlZyWjVBQk9uRkdJZ1VPZ2tuaV9kRFpVQjJOT0pvQjBxSkg1dDcyVDVtWHZ2cDJIYVE4QlJJWmc4MTJzSGUtYWZOQ1E5WFE5d0kwTDNEeDVsQ3BmZnFuQlVJWUxjeVhrX1BxUk1Pdm1TaDDSAdgBQVVfeXFMT0pSWlBjaVB4czNXYzFKejViNlpYcmJFNldBbXdmaXhYNGtpVWpKSjlyOGF3eDF2U0hnTFVlazJCd0xkNG1DQVVRSVJqakFINGRSOUdfN2tOOVctUXhCb2FTTE5TcTNTcFFjVWF4NUJWclo1QUJPbkZHSWdVT2drbmlfZERaVUIyTk9Kb0IwcUpINXQ3MlQ1bVh2dnAySGFROEJSSVpnODEyc0hlLWFmTkNROVhROXdJMEwzRHg1bENwZmZxbkJVSVlMY3lYa19QcVJNT3ZtU2gw?oc=5",
-      "publishedAt": "2026-11-13T22:25:00.000Z",
-      "source": "Newswise",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "Drug Ads Can Influence AI Treatment Recommendations, Study Finds",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR0JYNGE1QWlwMmNGZzllUU4xc1MwR1I0NzV0SDFzNTQwakx0ZWxBY1hNdkpTbjN2eUdOSFhqYWoxa0tHdjJrODVfa2dRYjhxMTdnanpENTRhRWJZV1JGcnRFdG5NUURoVGJ1My1DSHNUbEV2d1FqSHF5VE90TDBpcVI4dEFqcGF5QVo5SGFNUjYxU0IxVjRteFJxbzk3ZUJUM3k1LVk0ZEVMSmF5R1JF?oc=5",
-      "publishedAt": "2026-11-13T21:49:20.000Z",
-      "source": "Mount Sinai",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "Anthropic CEO Dario Amodei: Can AI Cure Cancer by 2036?",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZS1NsWlNibFVnSmE5Yk05ZTBqbk5KVmZOcWlEa2pwRTl0UjBSVTdQeEZCcGFxRFhJM3NpaVZ4MkpuM2tZdHRiWUlEMEF0cGpvbDVkeGVkTFlKNGJmdU5LanZuRjNaMVdwUHhCVTN2a0FYaUJQSWc?oc=5",
-      "publishedAt": "2026-11-13T21:42:15.000Z",
-      "source": "Oncodaily",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "The Future of AI-Driven Clinical Decisions in Oncology",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSWF6Nm9Zck9Wb2lZOEtya3U2bmR2Zlh3Wk1LSDdZWFZVODZaVml5Zmhib2NEdzZZb2ZZMHl0ZUF3UVJEZENwWGtLMFU0ZVI4a2R3dWctOFdIVEZIN2JUWGcxTzRTRmNEekdTNWZYV28yTHF3WlcwTzFGeEFGYnpoRjlNaVYwNjFk?oc=5",
-      "publishedAt": "2026-11-13T20:09:56.000Z",
-      "source": "Targeted Onc",
+      "title": "Researchers trial AI coach for diabetes",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ybmlQY1BpRXRNenhNQVA5SWZvNVdCTkdKcjZPTGlwX3pGRDRoMng4MDBGN05wa0cxNS1MRG9hbmgwY05zdzZTZVdSVFlJMTBvWlFFM09YeFlsbng2NG4tajBGN1lLRm9lNjNPTlpR?oc=5",
+      "publishedAt": "2026-11-14T03:20:01.000Z",
+      "source": "Medical Xpress",
       "category": "AI in Clinical Trials"
     }
   ]
