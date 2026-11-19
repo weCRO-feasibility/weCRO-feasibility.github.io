@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-11-18T03:18:56.824Z",
+  "updatedAt": "2026-11-19T02:55:46.380Z",
   "articles": [
     {
-      "title": "Isomorphic Labs raises $5 billion in Series C to build out clinical development",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wWWxPSmV2VWtxUnNlUmk2emJub3Z6WVU3THFxcElwbmV0Yk1iNDNkUUNyRmVLRWVrREVFb0R1N3R1NWI3LXBMeVlJcWFRVGVLQlRHdHZsSWs3N3VuWEdMNll5cFNZZGdqMkxZeG1wOA?oc=5",
-      "publishedAt": "2026-11-18T02:04:48.000Z",
-      "source": "XenoSpectrum",
+      "title": "AI Sports Medicine Research Grows Rapidly, Lags Clinical Validation",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOek9aMDNveXNoR3FfdEhSbnZIbTNtd05zTHZxdkd6TFctLVVLR3FyZEFWTFQ0YlBESjcyalp6NHpqQmU2NVFDeUthdGY3bjBUQV9MTTUxQ0V3R3NOVHVtWGt0NDVYVGxDNWhVVnlSWmxoQXljaFFneFZPdFdRZnZ6eWZ2WXNWMkpLQ3h2bi1KVVRtaFdDVXc?oc=5",
+      "publishedAt": "2026-11-19T02:06:31.000Z",
+      "source": "Bioengineer.org",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AI Company Backed by Nobel Laureate Secures 33.3 Billion Yuan in Latest Financing Round",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RTGdrNXRIdjcxdXlSZkV4a2U3R0MwVkdHUUhHOFlhampYOWpVWDIza3JTUWd3ZzllbzNhVjNXUXlJM0FLVXYzUllRZVN6UFM5bzYw?oc=5",
-      "publishedAt": "2026-11-18T00:11:55.000Z",
-      "source": "36Kr",
+      "title": "Artificial Intelligence Enhances Moxibustion Safety Monitoring but Clinical Risk Prediction Lags",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTVY3RndvcHRySjJ2eUlkYWlKejJFX0dad2RBS2NtRDhhYy1YSVRwX0ZUaDBTdUhRaG1zeUgtdzFrTXhYTkpld1BRWHNNTjRnc0ZkVC1QbXkyTkdxdTYzQnJGeUhuVHRHUnJGX1NQYmh4aENSZUFSVFNjay1RLUVaRVRkcTk2MUYzQmZLRGFIbm4zQ25VbE8zTWdvM0NwRHZyVkF1YU8xWVdDV3ZIMExpWkhPUTlLSkptelVSQTJ3?oc=5",
+      "publishedAt": "2026-11-19T00:56:30.000Z",
+      "source": "Bioengineer.org",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Florence Introduces Farr, An AI Agent For Study Teams",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbi1DNTdsd184bGlvNGozb3hmX0hyNmREeUc2U2M2V0g2TjF6RE5Dd3RqNGlBRnVacHdCR09DNEYwV3RqWExPX2RodnNFQXBCOVI2eXV5SFVTUjlES2lXTTVncU1xclpDdi1nbHlkcGRRTXZIbUxGUjBDZDZoOXRDQWJHWnBlWVFjMFBzVHhveEFzeDI5Q0FqS2lkQnZ3WHdxNGktaGIxTnl1X0cyekpSNVRZSFBMVGFjM3R5dU9kZmpuU05DcHJ4UzNSNktTUllnS0RxcUl6ZjBjZ1MxU1lWM1pKMTMwMk1LWVpIWjAzLW1ldV9fX2pXX3JGNA?oc=5",
-      "publishedAt": "2026-11-17T23:26:15.000Z",
-      "source": "Clinical Leader",
+      "title": "Harbour BioMed’s AI-Enabled Obesity Antibody LET003 Has IND Accepted",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVkZTLW9uMEpQeGphNHl5TzdMZUJrQlJ3RE5MOVlaR29GTzB2NW9nNW9aSlpwWnNaRDFfazN3S1d5TG16dTFOUmhRWDVPQ25kbkk5eGEwZ0lnMUptVk1RWmxsS3BGcHhnZm5td2c2cEkzSFFEWURiRnhkdFFHOERON3pHbzhQWkFBUU1tcEs5bjB3ODg?oc=5",
+      "publishedAt": "2026-11-19T00:26:08.000Z",
+      "source": "Unite.AI",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "UNLV’s Clinical Trials Observatory Data Now Available Through AI-Powered Alzheimer’s Disease Data Initiative’s AD Workbench | Newswise",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTnNWb1ktYm5ZTEJIMTlyam8zVjF5NmYtSndqR3JJOEl5cklKSkJCUXdNRFlzTGwzQTNDdkNDTmcxNnFoQmMyVWU2b1J2RWNTTUE5MkRfckt4TmpwQmlMWk02SmIzRmZDTXhjWTN1RDhnSHZiMHNKSXZibUxOM3JucWZGVFBtWFFyRmlpOUU4cGUyclZyVHFFSzFjN2o4OE9yLWJLeERSdEp0UHVxMkhnRjdpeFJucW9EMDdTR2laUVpxZ3NYNXJWN0Q5RG51UUFaQVEyem5ZMHEtX2J3Um5OS05ObUhtOURjQ3ZHN19R0gHuAUFVX3lxTE1Oc1ZvWS1ibllMQkgxOXJqbzNWMXk2Zi1Kd2pHckk4SXlySUpKQkJRd01EWXNMbDNBM0N2Q0NOZzE2cWhCYzJVZTZvUnZFY1NNQTkyRF9yS3hOanBCaUxaTTZKYjNGZkNNeGNZM3VEOGdIdmIwc0pJdmJtTE4zcm5xZkZUUG1YUXJGaWk5RThwZTJyVnJUcUVLMWM3ajg4T3ItYkt4RFJ0SnRQdXEySGdGN2l4Um5xb0QwN1NHaVpRWnFnc1g1clY3RDlEbnVRQVpBUTJ6blkwcS1fYndSbk5LTk5tSG05RGNDdkc3X1E?oc=5",
-      "publishedAt": "2026-11-17T23:05:00.000Z",
-      "source": "Newswise",
+      "title": "Grand Rounds November 13, 2026: Physician Edits to AI-Drafted Patient Messages and Their Impact on Clinical Workload (Karandeep Singh, MD, MMSc)",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZ0hrNmRMN1RGR0lYTzA5VVd1T0h6Zk5TZFJlMnotdTNKbm1MVXhySWk1VkRxc3NEREx3d3NxU3dFNjdJNUFqY0N6ejhQWGxRTkszdU5qeUk4azM3bnNLMU9BWWZlUnZIUExZdFB0TWNyUnp1bDhZVlZuZ1lKWk9xMjhXaTMwcUZXNE5mOUo1LVNOaEd4SklMRXl5OVpuWjhpeVNGTGNaMGVaLVRabGlGdWJtQjZYRFFMeEtYdVNIUThiVXVqUWtJTXlQLVd6dEFsaFZuUjZxczBsYjRLeEVFd19uQkJLdUZuNzd0anhZVWpfMm4xa0kyUmpDYm00dEFjSTBROXE1RjlZbEFVT3c?oc=5",
+      "publishedAt": "2026-11-18T21:56:15.000Z",
+      "source": "Rethinking Clinical Trials",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AI Drug Design Lab Isomorphic Labs Raises $5B Series C",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EN3d3RGxtNXFTT0FoQnhuVXQ4VzVyb1dzbDc0cXVvX1VjZF9pbE5ib0VWR2E2SnQ5R0tmMHdVeDAxUHV3dWhjUWRENjAtTzVteVI0?oc=5",
-      "publishedAt": "2026-11-17T21:54:20.000Z",
-      "source": "Wowtale",
+      "title": "Isomorphic Lab’s $5 billion bet to ‘solve all diseases’",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWXB4UTFGanZ1bGxFdXY5T01kek43OXQwRE85WmVISTBjRmw2RTRCak1mMTNCV1RkRkRUSDNlYzM4bVowWXVRZlZjQUdPMk1ac2lQN2JGRFNuaHV1S2FWTXAtek9DcGdsLU45cG5pVXNVRGo1cG4yZkFKNFpvbEQ2T0t0MU1yXzM2Z254NGRxR0xabDA?oc=5",
+      "publishedAt": "2026-11-18T20:58:42.000Z",
+      "source": "Chemical & Engineering News",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AbbVie (ABBV) Taps AI Drug Discovery Partnership To Extend Its Research Pipeline",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWXBxSTZlYm1NbUJuekdHeWI4UXhEZ0VteXBGNTFtR2lwaTlZT05WWFVvVF9kdS1rS3E4VjROWnZ5V29JRm9PbkZnYWw1czBSN2otdER5b092bWEwdHFtcnRTRTJBQUExMUx4czJoZGRBck82OUpDcGtvTTU3WGo1Ynk2akYwekI2ODA2WHBuM3ZHb0k3aEc2UkRMRXBrOG00aWNoNUEtQ3d0Skh6blRYZmxMRHpvbkx2N29BS19HRng3T2d4MGE5elMtb0llcGpsRzFXctIB2gFBVV95cUxOT1hzOVBRVGdER2tNb2l0WUxRbGNlWW1RaGowQ1gzdmpiTVRCSkItbTAtWWU5UEdIYUtFd0xuSWFHdTRnMVhoeFpQZmxyd0RZbWdNdGRmcnozVmFXX0ZFRWpsUzNQM0R6UnBHd3NJUGtfMkI0MzB6MlFNeEV5S1E0OXNUVVBkUXJWNmF1Q1pNVDRfYTdSWlpfbHhieW5LdkViMFQydEx2MnkzSEpPLThBbVJvNGI5MkFaT2xDSE5zQVZQVWFXaVQtSUVUUXdvM045d05qLXdGU2xvZw?oc=5",
-      "publishedAt": "2026-11-17T21:18:32.000Z",
-      "source": "Simply Wall St",
+      "title": "From AI to Lp(a): AHA president reflects on cardiology’s hottest topics",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWGp0ZTdEcnp4YlIwUXlFejNweFFFV1Z4bVY3UHRaUWF1OHNTaHZNN3BJNFNyRTV1RnRQSDlvM2ZzdDNlTlF2cmsxSTNCUTJOY1hodlFWcktGcHBqb1V6bjNaV2JyTkh2eVlmUVV0UkctbGZHUU9jT0FKSXQ4S1NhMk9FOFNpcUpfdWljblUxN0Z2cEJhVmk1bzdHa0otb3dHNzdUd3EzNWJiRFpYV1BKbWE2QnFJRHlVX19GS3lsNmc1VS1xbFhkVXFHVlRlVVNhSTI4VTNiUkVBTVFjWHVFcVRKQWdHcVRQSWExTlV4VkI0aUFnQTdfWTBqVlVHZVl1eDVn?oc=5",
+      "publishedAt": "2026-11-18T20:46:34.000Z",
+      "source": "Cardiovascular Business",
       "category": "AI in Clinical Trials"
     }
   ]
