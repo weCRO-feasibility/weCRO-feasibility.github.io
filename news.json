@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-11-19T02:55:46.380Z",
+  "updatedAt": "2026-11-20T02:49:48.090Z",
   "articles": [
     {
-      "title": "AI Sports Medicine Research Grows Rapidly, Lags Clinical Validation",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOek9aMDNveXNoR3FfdEhSbnZIbTNtd05zTHZxdkd6TFctLVVLR3FyZEFWTFQ0YlBESjcyalp6NHpqQmU2NVFDeUthdGY3bjBUQV9MTTUxQ0V3R3NOVHVtWGt0NDVYVGxDNWhVVnlSWmxoQXljaFFneFZPdFdRZnZ6eWZ2WXNWMkpLQ3h2bi1KVVRtaFdDVXc?oc=5",
-      "publishedAt": "2026-11-19T02:06:31.000Z",
+      "title": "Novo Nordisk (NYSE: NVO) And AI Firm nference Launch Joint Venture Framework To Tackle Obesity, Diabetes And Heart Disease",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVUU4eE03SHR5UTZweXpXalRsdkpBQlRHS01vakVzZUR5YlZpUUFpQ3JXakkxUEdVbTE0a0JSWkQzemJaN29mTWtVV2FuZWRfdmdITzd4VUY3aTZ1QmdVSzFIbXFDa0k1dHVBMDlTNVRLcTVPTkVJeVBGUlVQV05Vd2g1bE85djQtSEFzUC0zMDNfbUZSTnFQYVFtZGd0LUxFak5SRUxBeGZzYm1GaS1Bb3pIeDJxWWx2ZFJJVVYyb2RrT2Y3RjVZY0Q1WmtYUjk1QkJTanAyQnY0R1dsT2Q5NndGVnhwU0ljUEFzZlFmdHU4c3RlekU5S3Fsbw?oc=5",
+      "publishedAt": "2026-11-20T02:37:00.000Z",
+      "source": "Foreign Policy Journal",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "Merck and Isomorphic Labs to Collaborate on Undisclosed Cancer Target Small Molecule Therapeutics",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tbFFKazk5RUlwbGJXRkJrQ2hMNHlYUUF5TU4yNDVOdDROcENKXzlST2VIYm5ZUDMzbFVCSmJQSEZhaVpqUUxvWGV6WkZPdzRzNjF0Y1luNnRMWFp0R01zcHN3?oc=5",
+      "publishedAt": "2026-11-20T02:35:10.000Z",
+      "source": "재경일보",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "Researchers Examine How Artificial Intelligence Could Reshape Clinical Evidence Production Systems",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeXU5WTlDc3RwUVlWVGo2NnVWVzVLWlRQQjBFWld5RFZEbGw0UFRZYmVEdUFoYVNYMXhVTENDX0c4dHg3VGpXZnFwektIS2hJVFFGUEtGdVV0Tk5SZkpXdS0xaHJVckNvTW1UODFIZFJNZ3pDWXVDVG9iSkhTSjVLMmh3SU40ZWk3TGZqZHU3MjhYcl91Q0hCVGFpNU1lYjNQNl9CcFoySkt3LU1XNW8tSWhWUE9SeWF0X3luaHlTTXc?oc=5",
+      "publishedAt": "2026-11-19T23:10:53.000Z",
       "source": "Bioengineer.org",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Artificial Intelligence Enhances Moxibustion Safety Monitoring but Clinical Risk Prediction Lags",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTVY3RndvcHRySjJ2eUlkYWlKejJFX0dad2RBS2NtRDhhYy1YSVRwX0ZUaDBTdUhRaG1zeUgtdzFrTXhYTkpld1BRWHNNTjRnc0ZkVC1QbXkyTkdxdTYzQnJGeUhuVHRHUnJGX1NQYmh4aENSZUFSVFNjay1RLUVaRVRkcTk2MUYzQmZLRGFIbm4zQ25VbE8zTWdvM0NwRHZyVkF1YU8xWVdDV3ZIMExpWkhPUTlLSkptelVSQTJ3?oc=5",
-      "publishedAt": "2026-11-19T00:56:30.000Z",
-      "source": "Bioengineer.org",
+      "title": "AI helps researchers investigate how thousands of medical studies share code",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTnRpOE91YzNaWWJMd1BTWWcyc2ktV3B6MWh2aVdoclpyTExXQW9RYy1DMl9Ea2RtajRYQ21jRTg4ei1YaEJPazlHazBjeVNyYzdFZGtmaGExbnN4TVpzekZ1bUVuZHdocExMU2ZyQ3RrS1RIMDNuVEpHRHBSN3NobndOdTBhX2pRaTVmRXlKR0gzU3FsTkExRHBR?oc=5",
+      "publishedAt": "2026-11-19T22:15:00.000Z",
+      "source": "MIT News",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Harbour BioMed’s AI-Enabled Obesity Antibody LET003 Has IND Accepted",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVkZTLW9uMEpQeGphNHl5TzdMZUJrQlJ3RE5MOVlaR29GTzB2NW9nNW9aSlpwWnNaRDFfazN3S1d5TG16dTFOUmhRWDVPQ25kbkk5eGEwZ0lnMUptVk1RWmxsS3BGcHhnZm5td2c2cEkzSFFEWURiRnhkdFFHOERON3pHbzhQWkFBUU1tcEs5bjB3ODg?oc=5",
-      "publishedAt": "2026-11-19T00:26:08.000Z",
-      "source": "Unite.AI",
+      "title": "Novartis Says AI Is Speeding Drug Discovery and Trials, but Clinical Payoff Remains Unproven",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQUlzazZrbk5fSUVRdmx4blJ6NFhQYVJKQ0VoN0cxdlBETlptTzY1TnE1MVloZHJURlZWcm1scG5VTXhHTkVYWUEtdUpVQlJKYklvc3lZUVhtQ0dCOXZWSF9fMkFRaFRPcEp6WTdhZnFwN080SmNkcmxvM0NBWXM2MVFkc2F4cWlsWnlYNHNWdW1aQlVfU2c?oc=5",
+      "publishedAt": "2026-11-19T20:12:11.000Z",
+      "source": "Yahoo Finance",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Grand Rounds November 13, 2026: Physician Edits to AI-Drafted Patient Messages and Their Impact on Clinical Workload (Karandeep Singh, MD, MMSc)",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZ0hrNmRMN1RGR0lYTzA5VVd1T0h6Zk5TZFJlMnotdTNKbm1MVXhySWk1VkRxc3NEREx3d3NxU3dFNjdJNUFqY0N6ejhQWGxRTkszdU5qeUk4azM3bnNLMU9BWWZlUnZIUExZdFB0TWNyUnp1bDhZVlZuZ1lKWk9xMjhXaTMwcUZXNE5mOUo1LVNOaEd4SklMRXl5OVpuWjhpeVNGTGNaMGVaLVRabGlGdWJtQjZYRFFMeEtYdVNIUThiVXVqUWtJTXlQLVd6dEFsaFZuUjZxczBsYjRLeEVFd19uQkJLdUZuNzd0anhZVWpfMm4xa0kyUmpDYm00dEFjSTBROXE1RjlZbEFVT3c?oc=5",
-      "publishedAt": "2026-11-18T21:56:15.000Z",
-      "source": "Rethinking Clinical Trials",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "Isomorphic Lab’s $5 billion bet to ‘solve all diseases’",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWXB4UTFGanZ1bGxFdXY5T01kek43OXQwRE85WmVISTBjRmw2RTRCak1mMTNCV1RkRkRUSDNlYzM4bVowWXVRZlZjQUdPMk1ac2lQN2JGRFNuaHV1S2FWTXAtek9DcGdsLU45cG5pVXNVRGo1cG4yZkFKNFpvbEQ2T0t0MU1yXzM2Z254NGRxR0xabDA?oc=5",
-      "publishedAt": "2026-11-18T20:58:42.000Z",
-      "source": "Chemical & Engineering News",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "From AI to Lp(a): AHA president reflects on cardiology’s hottest topics",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWGp0ZTdEcnp4YlIwUXlFejNweFFFV1Z4bVY3UHRaUWF1OHNTaHZNN3BJNFNyRTV1RnRQSDlvM2ZzdDNlTlF2cmsxSTNCUTJOY1hodlFWcktGcHBqb1V6bjNaV2JyTkh2eVlmUVV0UkctbGZHUU9jT0FKSXQ4S1NhMk9FOFNpcUpfdWljblUxN0Z2cEJhVmk1bzdHa0otb3dHNzdUd3EzNWJiRFpYV1BKbWE2QnFJRHlVX19GS3lsNmc1VS1xbFhkVXFHVlRlVVNhSTI4VTNiUkVBTVFjWHVFcVRKQWdHcVRQSWExTlV4VkI0aUFnQTdfWTBqVlVHZVl1eDVn?oc=5",
-      "publishedAt": "2026-11-18T20:46:34.000Z",
-      "source": "Cardiovascular Business",
+      "title": "AstraZeneca and Tempus AI Renew $200M Oncology Deal",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Hd1d4YjZDVFhmNUxmNzZLMDJoSk9NMDRCbk1IQmY1WVlNMDh3NnlBRnd1X201Z1FsSnllNVNPd0FNZXZZTXlMR0NyUmhwM1hTRUpyWnRFVTQ4TGk0bWpxQXhVNXVlbmFncWww?oc=5",
+      "publishedAt": "2026-11-19T19:01:18.000Z",
+      "source": "Oncodaily",
       "category": "AI in Clinical Trials"
     }
   ]
