@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-11-20T02:49:48.090Z",
+  "updatedAt": "2026-11-21T02:58:30.288Z",
   "articles": [
     {
-      "title": "Novo Nordisk (NYSE: NVO) And AI Firm nference Launch Joint Venture Framework To Tackle Obesity, Diabetes And Heart Disease",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVUU4eE03SHR5UTZweXpXalRsdkpBQlRHS01vakVzZUR5YlZpUUFpQ3JXakkxUEdVbTE0a0JSWkQzemJaN29mTWtVV2FuZWRfdmdITzd4VUY3aTZ1QmdVSzFIbXFDa0k1dHVBMDlTNVRLcTVPTkVJeVBGUlVQV05Vd2g1bE85djQtSEFzUC0zMDNfbUZSTnFQYVFtZGd0LUxFak5SRUxBeGZzYm1GaS1Bb3pIeDJxWWx2ZFJJVVYyb2RrT2Y3RjVZY0Q1WmtYUjk1QkJTanAyQnY0R1dsT2Q5NndGVnhwU0ljUEFzZlFmdHU4c3RlekU5S3Fsbw?oc=5",
-      "publishedAt": "2026-11-20T02:37:00.000Z",
-      "source": "Foreign Policy Journal",
+      "title": "How AI could match more cancer patients to trials",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd1FxLVFyekxBRGdoUEd6dEhxN0pkUk04ZHFrZThmbXRXR3dqM3kzQzlfSEVvQUVUWEgxVTFZVm4xa3lLNTVFS3NDQUVzVkd1eWNHTHk3c2VDRGRSd0g1dXFRbU15bS11NFB6LXdKWE03YzA3ZmVVOXppWHlfNmdSckF6MnhoMERJR0NwRVJmdUNCRzJNMHhlMUt2dTJ0aF9G?oc=5",
+      "publishedAt": "2026-11-20T22:01:38.000Z",
+      "source": "Managed Healthcare Executive",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Merck and Isomorphic Labs to Collaborate on Undisclosed Cancer Target Small Molecule Therapeutics",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tbFFKazk5RUlwbGJXRkJrQ2hMNHlYUUF5TU4yNDVOdDROcENKXzlST2VIYm5ZUDMzbFVCSmJQSEZhaVpqUUxvWGV6WkZPdzRzNjF0Y1luNnRMWFp0R01zcHN3?oc=5",
-      "publishedAt": "2026-11-20T02:35:10.000Z",
-      "source": "재경일보",
+      "title": "Why AI drug discovery outpaces patient clinical trial recruitment",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRjB3aHJoSTZCRFN6WDAtdW5JYmtvZi02TGs0OUJqTHNRYWg2SFQxTXRicGxWQlRzbW1PNFgwdjlURF90UzBQU29SVXM0VmRYOVpGYjM1R05McElpVlk0U0tZQlJtM0UwR1RQV21WMGppS2lTaDlReFZsQm1pZUFlTTNQRmE0UkJmOTlMTWJodGRrT2Z2UnRxOUhxM3BUdDZUMmh0Y1l3?oc=5",
+      "publishedAt": "2026-11-20T21:47:48.000Z",
+      "source": "BioXconomy",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Researchers Examine How Artificial Intelligence Could Reshape Clinical Evidence Production Systems",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeXU5WTlDc3RwUVlWVGo2NnVWVzVLWlRQQjBFWld5RFZEbGw0UFRZYmVEdUFoYVNYMXhVTENDX0c4dHg3VGpXZnFwektIS2hJVFFGUEtGdVV0Tk5SZkpXdS0xaHJVckNvTW1UODFIZFJNZ3pDWXVDVG9iSkhTSjVLMmh3SU40ZWk3TGZqZHU3MjhYcl91Q0hCVGFpNU1lYjNQNl9CcFoySkt3LU1XNW8tSWhWUE9SeWF0X3luaHlTTXc?oc=5",
-      "publishedAt": "2026-11-19T23:10:53.000Z",
-      "source": "Bioengineer.org",
+      "title": "GAO Spotlight Flags Regulatory and Safety Gaps in Mental Health AI Chatbots",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa3ZrcFJRTkdVU1Nodm50VzFpZjNJbERPN2RZS0lJeVBmTXJzWlVORnE3ZlZic2dQUnBOMUZLZlZHZF9LVmRMV2xhVTlnTGNSNm9aUU9US3pJS3FFa0IxMVk0cGFNTkhPN3Bsb0UwTWx3cDhObEduNW5RNnI2SGZYRUR6d1JidjNpME13cA?oc=5",
+      "publishedAt": "2026-11-20T21:14:43.000Z",
+      "source": "CASRAI",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AI helps researchers investigate how thousands of medical studies share code",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTnRpOE91YzNaWWJMd1BTWWcyc2ktV3B6MWh2aVdoclpyTExXQW9RYy1DMl9Ea2RtajRYQ21jRTg4ei1YaEJPazlHazBjeVNyYzdFZGtmaGExbnN4TVpzekZ1bUVuZHdocExMU2ZyQ3RrS1RIMDNuVEpHRHBSN3NobndOdTBhX2pRaTVmRXlKR0gzU3FsTkExRHBR?oc=5",
-      "publishedAt": "2026-11-19T22:15:00.000Z",
-      "source": "MIT News",
+      "title": "Big Pharma Says AI and Anthropic Tools Shrink Preclinical Drug Discovery Timelines",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ2dUZGNwd01IZk1pX1lLT2x4RktCMFlDVkhvakU5c3pWb0RfV1I3NXdjVUFtMEVkTVgyU2FYSnBfNkRUeFd4UGFmNFQ2RUIxamVjV3ZfT1dEd1NiSkg4SXZfZGs4WWxNWEgxc0JCaFl1VTNHZHFfeDdhNFF3enc3WnlJWm5jMmt3VTJ0YkNCYlI4X0k?oc=5",
+      "publishedAt": "2026-11-20T20:37:19.000Z",
+      "source": "CASRAI",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Novartis Says AI Is Speeding Drug Discovery and Trials, but Clinical Payoff Remains Unproven",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQUlzazZrbk5fSUVRdmx4blJ6NFhQYVJKQ0VoN0cxdlBETlptTzY1TnE1MVloZHJURlZWcm1scG5VTXhHTkVYWUEtdUpVQlJKYklvc3lZUVhtQ0dCOXZWSF9fMkFRaFRPcEp6WTdhZnFwN080SmNkcmxvM0NBWXM2MVFkc2F4cWlsWnlYNHNWdW1aQlVfU2c?oc=5",
-      "publishedAt": "2026-11-19T20:12:11.000Z",
-      "source": "Yahoo Finance",
+      "title": "Faex Health Announces Investigational AI Screening Capabilities for Ebola and H. pylori, Expanding Gut Health Platform to 18 Conditions",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPRERyNjdzSkxFdXNmTHRMdkpndTJuTUdDTnI4TmUxZzl6b1g2cUxwLW03RDVnYnptYW4ybmw1U1l2RE82czlhcm5HeFg3VF9TcXVpRHRfcUxxWTMzdEkyZnBXbzNIRUdxUno1TUNUQ2R2WkRnZ2hCZnYtczNmSjlxWWU1Z2lJWkl1VVRndkdrcmkxVDl2VXRpREVqYzVfTWtVYkg1aGtZZ1BIbHJ5eFAwRV9XeXowLXJwTkNPZnFnczlDV3hHRUxfWV9DQzlmSUg0djlDTDNUekc2cklidWJpenJGUWQwS1hCRnU5aVEyQS12eFBKYjNIRlYxZzVlZUMxV3ZWdE9KXzk2cXhuRV9JbEJLZUk1NGhD?oc=5",
+      "publishedAt": "2026-11-20T20:26:00.000Z",
+      "source": "PR Newswire",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "AstraZeneca and Tempus AI Renew $200M Oncology Deal",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Hd1d4YjZDVFhmNUxmNzZLMDJoSk9NMDRCbk1IQmY1WVlNMDh3NnlBRnd1X201Z1FsSnllNVNPd0FNZXZZTXlMR0NyUmhwM1hTRUpyWnRFVTQ4TGk0bWpxQXhVNXVlbmFncWww?oc=5",
-      "publishedAt": "2026-11-19T19:01:18.000Z",
-      "source": "Oncodaily",
+      "title": "Anthropic's record Nasdaq IPO puts AI drug discovery in the spotlight",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQlA3VzdCRlA3eWdqaXd2aktoVFV2MDZnSHhqU3h6aGI4M2V2SU4zZUtxYUFZNlJSalYtMGhfMGdxOVVGWmdiRTlPZjZLWVlLTTNONGJ1ejBuLVVIeXJjbGhSemwwRzlnY2U5S1MzOHhETzRLMGkxZGZVSG9CLUZPTnVUZ1NDUGJwMGtucHBKTDF6WVkzVUI2cGFfSnVPUQ?oc=5",
+      "publishedAt": "2026-11-20T19:05:15.000Z",
+      "source": "MobiHealthNews",
       "category": "AI in Clinical Trials"
     }
   ]
