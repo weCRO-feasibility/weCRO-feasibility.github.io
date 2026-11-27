@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-11-26T03:56:42.343Z",
+  "updatedAt": "2026-11-27T03:55:43.811Z",
   "articles": [
     {
-      "title": "Virginia Tech and Multi-University Team Publish PNAS Validation Tool for Synthetic Medical Imaging Trials",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTEc0eklrTXJMLWVBSjFVUG1uMmdJWUFfU1ZfSENWcmhtQlFtRWVEdWMyZ2hFTHVoVnJJeVJ5NHR4NGJWb1F5amE5VmEtWHppeVFnZUViS3RyNTIxNWhBQlFyS1h1Z3BEWUJ3RWxvM0Ixd3hUZEk1SndRa2JJSjNzaFA5d1lFeXJnOU50ZGtxVEpUcEM2VncySEh1RV9TRjNGcTl4NlVB?oc=5",
-      "publishedAt": "2026-11-26T02:07:34.000Z",
-      "source": "CASRAI",
+      "title": "Innobotherapeutics: \"Four clinical-stage drugs and technology transfer achievements… Demonstrates AI platform capabilities\"",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rNVVyM0pUVDRYVkplaWRrUnhiUlJvdk1LRTNXVUt3V3daaFN6RXBfdlFPVHhMNEZaQWpIX21GX1QyZ2pCN0ZucnFOLXhlT0RIVF9ZOXFrLWFnR0V5Ukw4MC1lQ2dzdjBXTGJpeTFn?oc=5",
+      "publishedAt": "2026-11-27T03:28:15.000Z",
+      "source": "머니투데이",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Big Pharma Bets 60 Trillion on AI Drug Development Amid Patent Cliff",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTllLMDdPV2JIcm53MnZaak5FVmlwaXFPZVNpZ3lpVmU3azVTT2ZuNVl3WlQtamVCaktmeld3UVdjeTZuY25rXzJHbXVoZVBDVWIzS1M4Z1dqMTlBbHFwbkJaZ0NsTHltWWlZQWxSS2tiaEdUNzhHZWg2Y0trNEhJN0t2aXVfQkJl?oc=5",
-      "publishedAt": "2026-11-25T21:36:19.000Z",
+      "title": "Large Models Flood into Drug R&D: Closed Loops, Physical Bottlenecks and Betting on Validation",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtdUxYR2NDTERZNTN4MUFVcUc2eHd5QUlyNTA4U3Y3S3RjaEZmWDMwb3Y4R0FyeW04d1p3MkJaTVF2Tk1WaUNpQzlJVDBvanBZVFVn?oc=5",
+      "publishedAt": "2026-11-27T03:01:02.000Z",
+      "source": "eu.36kr.com",
+      "category": "AI in Clinical Trials"
+    },
+    {
+      "title": "OpenAI and Anthropic Design Proteins for Drug Development",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZEZHbFFhMWYyczBSbUxpdnB4TmxOY1Y0eHQ0M3I0Y3pQb0t4cm00Tmw0dHFWbjVRQl9Cb2Z1MFRpUnl3SWFBa0wwVHBYdEg2em15M3NHeWp4QTJEel9vRTNnbUZrR0JFT0hHVVd2am9Wek9MNWhwS0tmemZELVhEbXh1VE5GbVRY?oc=5",
+      "publishedAt": "2026-11-26T23:09:47.000Z",
       "source": "조선일보",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Clinical AI Tools Yield Mixed Outcomes for Healthcare Worker Wellbeing and Stress",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVGFybzVfYWZTMlpReU9nb1RuTkZZc3pvcXMwTFFQLWExSnV1cm9uN3I5d0gxbWdVaWlxWnRCZDU0TVE0aFNHWThyb1lrckJVRlBwR2RhcnFDOTJpR2tBbHhjV0tCd1NvZHYtTjBBVGJIcGdfM0hfRzdWMko4OTJwNFZCcmhLdlVadV9KUWo1S2FUY1dnbXNaUjlUZWFVUnEyck04UGREeXBTQQ?oc=5",
-      "publishedAt": "2026-11-25T21:27:33.000Z",
-      "source": "Bioengineer.org",
+      "title": "Health research needs AI governance that can keep pace with innovation",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUFlOOTEtbE1QZlVRbDFrSFVabTlQVFBFSGxoTVNIWm9uNHdOcjF6bWY3UjlDQ3FBd1UzNXJkTzVPX05IaTZ4dHhmVGNJV0xVZ1lZWnlCak9tSnBNbXJsbnNMWXJpbGRxUURvMVY4N1dyNTBYRU9POFBOT1p6SmtlaVpNV3hEYXFXT3hhejNUR0Y?oc=5",
+      "publishedAt": "2026-11-26T21:20:55.000Z",
+      "source": "Healthcare Management Magazine",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "FDA Clears DeepHealth AI Tool for Five-Year Breast Cancer Risk Prediction From 3D Mammograms",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUFd1WFVMV3BReUI1WVdmdzdPN3RrTVVjekZ2aS1DSVNsNV9CT1NQdUFnT3hpNEZ5OGlvVDNmSjJzbnkxanZKVXNNYXd2b2RQdDJtTDNFd0Q2M0tCRGhfOG16YjJYTGhnZ05PdGFzNTZFZlBiT1B4bDlLNzlNQlFnQzhlbG9ZQy1tZFFxM0M3M2xSZUNxSE1jX1kwbw?oc=5",
-      "publishedAt": "2026-11-25T18:27:32.000Z",
-      "source": "CASRAI",
+      "title": "Cathie Wood: AI Saves Billion in Biotech Costs - 5 Stocks to Watch - CRISPR Therapeutics (NASDAQ:CRSP), I",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaDdqM2h3VzZkU1o3THNRanh2d3ZMejVtWGt3WXFPa2s4RGI2ZWVaX0h5Q29fX1ZMOS1rWFJXWS1BNklYYm9WUHNPRWZiU1hPSzNRaFVFRXlkWDQ0b0F3ek1ZdmNvTXpwN3A1NHIwQ3ltUDhZLVVrT2dacnRxWnlUZ2Q1M1A2MTZUQUZfS0VSZGxIV2hmc1phX1J3?oc=5",
+      "publishedAt": "2026-11-26T18:45:07.000Z",
+      "source": "Benzinga",
       "category": "AI in Clinical Trials"
     },
     {
-      "title": "Weekly Rundown: Waystar integrates into Google Cloud’s Gemini for healthcare; Oracle debuts AI agents for clinical trials",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2NJV3VkUW8zTC1tY3ZUQ1RxMUZMUEtJNjd1WUtXbWlRdkxPNGRKQVNEdm9RMzl5T2JZOXB4MTY0OC1BNFo5LXpVeHRrd2IwTExya1pweVZ6QWtmb2FJd3Z4UWRFdVdmcG9mdDMxYk1Zdng1eEpaRC0tVkpJSkhGa0lScWg3SXhxTF92cHZwYlk3cms2NmFSc2Vmd0tMaTYxSGRoM3o1a0FBU1ZPclVMZmVuMEh3QXBkMlI2ZUN6cGtHMWNnanc?oc=5",
-      "publishedAt": "2026-11-25T18:00:00.000Z",
-      "source": "Fierce Healthcare",
-      "category": "AI in Clinical Trials"
-    },
-    {
-      "title": "FDA cites Addex Pharma and Duchesnay for failing to post clinical trial results",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2dZQjF1MV9jU1liYkNpOTJyQ3BuaDNhQlhURzdxOU9EcGFrMk5HYmNwNmdkTzh4Q0lDOW1iaEx3Rm96VlJkVFRrNWJVUFFUcGNqRC1UTUNSZFM4eDJKekFWckpPQ0VoU2xGWlpYRUtXVzROT00xRjNOdDB3dDlpcGc3T1lQV0dqSGdGUnlBRVJhbVJBb2I0aTcwZ090Z3ZaLWc?oc=5",
-      "publishedAt": "2026-11-25T15:27:52.000Z",
-      "source": "MLQ.ai",
+      "title": "AI in Action: Improving precision and speed in cancer treatments",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORk1DaG5iMWlsT3RBNEV1b3hOQlNKcXBNSUlzMHpzOTFrTTBFdlRXellBZHpOQUV6cE54VHMxSEFUUkZYOHJKOFRvYVZHcjY1V1A0RFZpWGJXbHRDWm1jSjFockdqczAtVDFydGpvYnhmUGFwdXFjWi1NcU5tLTI4LTRuWUFZWlRtU2dwTWZHUEZXZnNPdldUX0haUHdqTkFtLUxfSnhB?oc=5",
+      "publishedAt": "2026-11-26T17:01:10.000Z",
+      "source": "Sunnybrook Health Sciences Centre",
       "category": "AI in Clinical Trials"
     }
   ]
